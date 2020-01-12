@@ -12,10 +12,6 @@ from collections import OrderedDict
 connection = sqlite3.connect("database.db")
 c = connection.cursor()
 
-import os
-os.remove("database.db")
-import database_setup
-database_setup.setup_database()
 
 
 seconds_between_gifts = 20
