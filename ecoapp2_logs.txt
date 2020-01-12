@@ -1,0 +1,2498 @@
+[2020-01-12 15:10:12 -0800] [28993] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:9000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fe6a0fbc510>
+  on_reload: <function OnReload.on_reload at 0x7fe6a0fbc620>
+  when_ready: <function WhenReady.when_ready at 0x7fe6a0fbc730>
+  pre_fork: <function Prefork.pre_fork at 0x7fe6a0fbc840>
+  post_fork: <function Postfork.post_fork at 0x7fe6a0fbc950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fe6a0fbca60>
+  worker_int: <function WorkerInt.worker_int at 0x7fe6a0fbcb70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fe6a0fbcc80>
+  pre_exec: <function PreExec.pre_exec at 0x7fe6a0fbcd90>
+  pre_request: <function PreRequest.pre_request at 0x7fe6a0fbcea0>
+  post_request: <function PostRequest.post_request at 0x7fe6a0fbcf28>
+  child_exit: <function ChildExit.child_exit at 0x7fe6a0fd40d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fe6a0fd41e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fe6a0fd42f0>
+  on_exit: <function OnExit.on_exit at 0x7fe6a0fd4400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:10:12 -0800] [28993] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:10:12 -0800] [28993] [ERROR] Connection in use: ('0.0.0.0', 9000)
+[2020-01-12 15:10:12 -0800] [28993] [DEBUG] connection to ('0.0.0.0', 9000) failed: [Errno 98] Address already in use
+[2020-01-12 15:10:12 -0800] [28993] [ERROR] Retrying in 1 second.
+[2020-01-12 15:10:13 -0800] [28993] [ERROR] Connection in use: ('0.0.0.0', 9000)
+[2020-01-12 15:10:13 -0800] [28993] [DEBUG] connection to ('0.0.0.0', 9000) failed: [Errno 98] Address already in use
+[2020-01-12 15:10:13 -0800] [28993] [ERROR] Retrying in 1 second.
+[2020-01-12 15:10:14 -0800] [28993] [ERROR] Connection in use: ('0.0.0.0', 9000)
+[2020-01-12 15:10:14 -0800] [28993] [DEBUG] connection to ('0.0.0.0', 9000) failed: [Errno 98] Address already in use
+[2020-01-12 15:10:14 -0800] [28993] [ERROR] Retrying in 1 second.
+[2020-01-12 15:10:15 -0800] [28993] [ERROR] Connection in use: ('0.0.0.0', 9000)
+[2020-01-12 15:10:15 -0800] [28993] [DEBUG] connection to ('0.0.0.0', 9000) failed: [Errno 98] Address already in use
+[2020-01-12 15:10:15 -0800] [28993] [ERROR] Retrying in 1 second.
+[2020-01-12 15:10:16 -0800] [28993] [ERROR] Connection in use: ('0.0.0.0', 9000)
+[2020-01-12 15:10:16 -0800] [28993] [DEBUG] connection to ('0.0.0.0', 9000) failed: [Errno 98] Address already in use
+[2020-01-12 15:10:16 -0800] [28993] [ERROR] Retrying in 1 second.
+[2020-01-12 15:10:17 -0800] [28993] [ERROR] Can't connect to ('0.0.0.0', 9000)
+[2020-01-12 15:10:17 -0800] [28997] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:9000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fb2417fd510>
+  on_reload: <function OnReload.on_reload at 0x7fb2417fd620>
+  when_ready: <function WhenReady.when_ready at 0x7fb2417fd730>
+  pre_fork: <function Prefork.pre_fork at 0x7fb2417fd840>
+  post_fork: <function Postfork.post_fork at 0x7fb2417fd950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fb2417fda60>
+  worker_int: <function WorkerInt.worker_int at 0x7fb2417fdb70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fb2417fdc80>
+  pre_exec: <function PreExec.pre_exec at 0x7fb2417fdd90>
+  pre_request: <function PreRequest.pre_request at 0x7fb2417fdea0>
+  post_request: <function PostRequest.post_request at 0x7fb2417fdf28>
+  child_exit: <function ChildExit.child_exit at 0x7fb2418160d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fb2418161e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fb2418162f0>
+  on_exit: <function OnExit.on_exit at 0x7fb241816400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:10:17 -0800] [28997] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:10:17 -0800] [28997] [ERROR] Connection in use: ('0.0.0.0', 9000)
+[2020-01-12 15:10:17 -0800] [28997] [DEBUG] connection to ('0.0.0.0', 9000) failed: [Errno 98] Address already in use
+[2020-01-12 15:10:17 -0800] [28997] [ERROR] Retrying in 1 second.
+[2020-01-12 15:10:18 -0800] [28997] [ERROR] Connection in use: ('0.0.0.0', 9000)
+[2020-01-12 15:10:18 -0800] [28997] [DEBUG] connection to ('0.0.0.0', 9000) failed: [Errno 98] Address already in use
+[2020-01-12 15:10:18 -0800] [28997] [ERROR] Retrying in 1 second.
+[2020-01-12 15:10:19 -0800] [28997] [ERROR] Connection in use: ('0.0.0.0', 9000)
+[2020-01-12 15:10:19 -0800] [28997] [DEBUG] connection to ('0.0.0.0', 9000) failed: [Errno 98] Address already in use
+[2020-01-12 15:10:19 -0800] [28997] [ERROR] Retrying in 1 second.
+[2020-01-12 15:10:20 -0800] [28997] [ERROR] Connection in use: ('0.0.0.0', 9000)
+[2020-01-12 15:10:20 -0800] [28997] [DEBUG] connection to ('0.0.0.0', 9000) failed: [Errno 98] Address already in use
+[2020-01-12 15:10:20 -0800] [28997] [ERROR] Retrying in 1 second.
+[2020-01-12 15:10:21 -0800] [28997] [ERROR] Connection in use: ('0.0.0.0', 9000)
+[2020-01-12 15:10:21 -0800] [28997] [DEBUG] connection to ('0.0.0.0', 9000) failed: [Errno 98] Address already in use
+[2020-01-12 15:10:21 -0800] [28997] [ERROR] Retrying in 1 second.
+[2020-01-12 15:10:22 -0800] [28997] [ERROR] Can't connect to ('0.0.0.0', 9000)
+[2020-01-12 15:10:22 -0800] [29003] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:9000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f971269e510>
+  on_reload: <function OnReload.on_reload at 0x7f971269e620>
+  when_ready: <function WhenReady.when_ready at 0x7f971269e730>
+  pre_fork: <function Prefork.pre_fork at 0x7f971269e840>
+  post_fork: <function Postfork.post_fork at 0x7f971269e950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f971269ea60>
+  worker_int: <function WorkerInt.worker_int at 0x7f971269eb70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f971269ec80>
+  pre_exec: <function PreExec.pre_exec at 0x7f971269ed90>
+  pre_request: <function PreRequest.pre_request at 0x7f971269eea0>
+  post_request: <function PostRequest.post_request at 0x7f971269ef28>
+  child_exit: <function ChildExit.child_exit at 0x7f97126b50d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f97126b51e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f97126b52f0>
+  on_exit: <function OnExit.on_exit at 0x7f97126b5400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:10:22 -0800] [29003] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:10:22 -0800] [29003] [ERROR] Connection in use: ('0.0.0.0', 9000)
+[2020-01-12 15:10:22 -0800] [29003] [DEBUG] connection to ('0.0.0.0', 9000) failed: [Errno 98] Address already in use
+[2020-01-12 15:10:22 -0800] [29003] [ERROR] Retrying in 1 second.
+[2020-01-12 15:10:23 -0800] [29003] [ERROR] Connection in use: ('0.0.0.0', 9000)
+[2020-01-12 15:10:23 -0800] [29003] [DEBUG] connection to ('0.0.0.0', 9000) failed: [Errno 98] Address already in use
+[2020-01-12 15:10:23 -0800] [29003] [ERROR] Retrying in 1 second.
+[2020-01-12 15:10:24 -0800] [29003] [ERROR] Connection in use: ('0.0.0.0', 9000)
+[2020-01-12 15:10:24 -0800] [29003] [DEBUG] connection to ('0.0.0.0', 9000) failed: [Errno 98] Address already in use
+[2020-01-12 15:10:24 -0800] [29003] [ERROR] Retrying in 1 second.
+[2020-01-12 15:12:27 -0800] [29087] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f83e1c80510>
+  on_reload: <function OnReload.on_reload at 0x7f83e1c80620>
+  when_ready: <function WhenReady.when_ready at 0x7f83e1c80730>
+  pre_fork: <function Prefork.pre_fork at 0x7f83e1c80840>
+  post_fork: <function Postfork.post_fork at 0x7f83e1c80950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f83e1c80a60>
+  worker_int: <function WorkerInt.worker_int at 0x7f83e1c80b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f83e1c80c80>
+  pre_exec: <function PreExec.pre_exec at 0x7f83e1c80d90>
+  pre_request: <function PreRequest.pre_request at 0x7f83e1c80ea0>
+  post_request: <function PostRequest.post_request at 0x7f83e1c80f28>
+  child_exit: <function ChildExit.child_exit at 0x7f83e1c980d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f83e1c981e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f83e1c982f0>
+  on_exit: <function OnExit.on_exit at 0x7f83e1c98400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:12:27 -0800] [29087] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:12:27 -0800] [29087] [DEBUG] Arbiter booted
+[2020-01-12 15:12:27 -0800] [29087] [INFO] Listening at: http://0.0.0.0:4000 (29087)
+[2020-01-12 15:12:27 -0800] [29087] [INFO] Using worker: sync
+[2020-01-12 15:12:27 -0800] [29091] [INFO] Booting worker with pid: 29091
+[2020-01-12 15:12:27 -0800] [29087] [DEBUG] 1 workers
+2.6.0
+[(110,)]
+7
+6
+double id
+2
+3
+3
+5
+1
+1
+6
+8
+4
+6
+8
+1
+3
+7
+5
+5
+double id
+6
+5
+[(8,)]
+[(0, 3), (1, 3), (2, 7), (3, 1), (4, 2), (5, 6), (6, 8), (7, 7), (8, 8), (9, 2), (10, 8), (11, 2), (12, 1), (13, 5), (14, 7), (15, 3), (16, 7), (17, 7), (18, 2), (19, 4)]
+action log:
+[]
+[(0, 6), (1, 6), (2, 8), (3, 6), (4, 4), (5, 8), (6, 7), (7, 3), (8, 4), (9, 3), (10, 8), (11, 1), (12, 7), (13, 3), (14, 3), (15, 8), (16, 8), (17, 2), (18, 8), (19, 4), (0, 8), (1, 3), (2, 10), (3, 9), (4, 10), (5, 3), (6, 1), (7, 8), (8, 5), (9, 5), (10, 8), (11, 7), (12, 7), (13, 3), (14, 1), (15, 5), (16, 15), (17, 14), (18, 3), (19, 6)]
+[(0, 6), (1, 6), (2, 8), (3, 6), (4, 4), (5, 8), (6, 7), (7, 3), (8, 4), (9, 3), (10, 8), (11, 1), (12, 7), (13, 3), (14, 3), (15, 8), (16, 8), (17, 2), (18, 8), (19, 4), (0, 8), (1, 3), (2, 10), (3, 9), (4, 10), (5, 3), (6, 1), (7, 8), (8, 5), (9, 5), (10, 8), (11, 7), (12, 7), (13, 3), (14, 1), (15, 5), (16, 15), (17, 14), (18, 3), (19, 6)]
+time header: 
+ 
+ 
+ 
+ 
+seconds since epoch
+1578870747.6
+days since epocj
+18273.96698611111
+rounded start date
+18233
+days since start
+40.9669861111106
+[(1, 'katnis', 12345, 51, 90), (2, 'JellyDonuts', 2019, 13478, 1), (3, 'vader', 555, 820, 80), (4, 'meep', 0, 100000000, 90), (5, 'grettle', 559, 1, 70), (6, 'katnis', 12345, 51, 90), (7, 'JellyDonuts', 2019, 13478, 1), (8, 'vader', 555, 820, 80), (9, 'meep', 0, 100000000, 90), (10, 'grettle', 559, 1, 70)]
+[2020-01-12 15:12:30 -0800] [29091] [DEBUG] GET /
+[2020-01-12 15:12:30 -0800] [29091] [DEBUG] GET /static/home.html
+[2020-01-12 15:12:30 -0800] [29091] [DEBUG] GET /static/homeStyle2.css
+[2020-01-12 15:12:30 -0800] [29091] [DEBUG] POST /get_user_info
+1
+[(1, 'katnis', 12345, 51, 90)]
+Ep value fort this user:    
+[(51,)]
+{'username': [('katnis',)], 'xp': [(51,)], 'cc': [(90,)], 'id': '1'}
+[2020-01-12 15:12:30 -0800] [29091] [DEBUG] GET /favicon.ico
+[2020-01-12 15:15:48 -0800] [29546] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fb13501a510>
+  on_reload: <function OnReload.on_reload at 0x7fb13501a620>
+  when_ready: <function WhenReady.when_ready at 0x7fb13501a730>
+  pre_fork: <function Prefork.pre_fork at 0x7fb13501a840>
+  post_fork: <function Postfork.post_fork at 0x7fb13501a950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fb13501aa60>
+  worker_int: <function WorkerInt.worker_int at 0x7fb13501ab70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fb13501ac80>
+  pre_exec: <function PreExec.pre_exec at 0x7fb13501ad90>
+  pre_request: <function PreRequest.pre_request at 0x7fb13501aea0>
+  post_request: <function PostRequest.post_request at 0x7fb13501af28>
+  child_exit: <function ChildExit.child_exit at 0x7fb1350320d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fb1350321e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fb1350322f0>
+  on_exit: <function OnExit.on_exit at 0x7fb135032400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:15:48 -0800] [29546] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:15:48 -0800] [29546] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:15:48 -0800] [29546] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:15:48 -0800] [29546] [ERROR] Retrying in 1 second.
+[2020-01-12 15:15:49 -0800] [29546] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:15:49 -0800] [29546] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:15:49 -0800] [29546] [ERROR] Retrying in 1 second.
+[2020-01-12 15:15:50 -0800] [29546] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:15:50 -0800] [29546] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:15:50 -0800] [29546] [ERROR] Retrying in 1 second.
+[2020-01-12 15:15:51 -0800] [29546] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:15:51 -0800] [29546] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:15:51 -0800] [29546] [ERROR] Retrying in 1 second.
+[2020-01-12 15:15:52 -0800] [29546] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:15:52 -0800] [29546] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:15:52 -0800] [29546] [ERROR] Retrying in 1 second.
+[2020-01-12 15:15:53 -0800] [29546] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:15:53 -0800] [29550] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f0958b45510>
+  on_reload: <function OnReload.on_reload at 0x7f0958b45620>
+  when_ready: <function WhenReady.when_ready at 0x7f0958b45730>
+  pre_fork: <function Prefork.pre_fork at 0x7f0958b45840>
+  post_fork: <function Postfork.post_fork at 0x7f0958b45950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f0958b45a60>
+  worker_int: <function WorkerInt.worker_int at 0x7f0958b45b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f0958b45c80>
+  pre_exec: <function PreExec.pre_exec at 0x7f0958b45d90>
+  pre_request: <function PreRequest.pre_request at 0x7f0958b45ea0>
+  post_request: <function PostRequest.post_request at 0x7f0958b45f28>
+  child_exit: <function ChildExit.child_exit at 0x7f0958b5d0d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f0958b5d1e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f0958b5d2f0>
+  on_exit: <function OnExit.on_exit at 0x7f0958b5d400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:15:53 -0800] [29550] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:15:53 -0800] [29550] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:15:53 -0800] [29550] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:15:53 -0800] [29550] [ERROR] Retrying in 1 second.
+[2020-01-12 15:15:54 -0800] [29550] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:15:54 -0800] [29550] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:15:54 -0800] [29550] [ERROR] Retrying in 1 second.
+[2020-01-12 15:15:55 -0800] [29550] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:15:55 -0800] [29550] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:15:55 -0800] [29550] [ERROR] Retrying in 1 second.
+[2020-01-12 15:15:56 -0800] [29550] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:15:56 -0800] [29550] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:15:56 -0800] [29550] [ERROR] Retrying in 1 second.
+[2020-01-12 15:15:57 -0800] [29550] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:15:57 -0800] [29550] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:15:57 -0800] [29550] [ERROR] Retrying in 1 second.
+[2020-01-12 15:15:58 -0800] [29550] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:15:58 -0800] [29556] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7ffbcbe17510>
+  on_reload: <function OnReload.on_reload at 0x7ffbcbe17620>
+  when_ready: <function WhenReady.when_ready at 0x7ffbcbe17730>
+  pre_fork: <function Prefork.pre_fork at 0x7ffbcbe17840>
+  post_fork: <function Postfork.post_fork at 0x7ffbcbe17950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7ffbcbe17a60>
+  worker_int: <function WorkerInt.worker_int at 0x7ffbcbe17b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7ffbcbe17c80>
+  pre_exec: <function PreExec.pre_exec at 0x7ffbcbe17d90>
+  pre_request: <function PreRequest.pre_request at 0x7ffbcbe17ea0>
+  post_request: <function PostRequest.post_request at 0x7ffbcbe17f28>
+  child_exit: <function ChildExit.child_exit at 0x7ffbcbe2f0d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7ffbcbe2f1e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7ffbcbe2f2f0>
+  on_exit: <function OnExit.on_exit at 0x7ffbcbe2f400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:15:58 -0800] [29556] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:15:58 -0800] [29556] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:15:58 -0800] [29556] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:15:58 -0800] [29556] [ERROR] Retrying in 1 second.
+[2020-01-12 15:15:59 -0800] [29556] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:15:59 -0800] [29556] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:15:59 -0800] [29556] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:00 -0800] [29556] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:00 -0800] [29556] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:00 -0800] [29556] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:01 -0800] [29556] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:01 -0800] [29556] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:01 -0800] [29556] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:02 -0800] [29556] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:02 -0800] [29556] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:02 -0800] [29556] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:03 -0800] [29556] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:16:03 -0800] [29560] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fd5fad74510>
+  on_reload: <function OnReload.on_reload at 0x7fd5fad74620>
+  when_ready: <function WhenReady.when_ready at 0x7fd5fad74730>
+  pre_fork: <function Prefork.pre_fork at 0x7fd5fad74840>
+  post_fork: <function Postfork.post_fork at 0x7fd5fad74950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fd5fad74a60>
+  worker_int: <function WorkerInt.worker_int at 0x7fd5fad74b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fd5fad74c80>
+  pre_exec: <function PreExec.pre_exec at 0x7fd5fad74d90>
+  pre_request: <function PreRequest.pre_request at 0x7fd5fad74ea0>
+  post_request: <function PostRequest.post_request at 0x7fd5fad74f28>
+  child_exit: <function ChildExit.child_exit at 0x7fd5fad8b0d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fd5fad8b1e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fd5fad8b2f0>
+  on_exit: <function OnExit.on_exit at 0x7fd5fad8b400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:16:03 -0800] [29560] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:16:03 -0800] [29560] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:03 -0800] [29560] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:03 -0800] [29560] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:04 -0800] [29560] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:04 -0800] [29560] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:04 -0800] [29560] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:05 -0800] [29560] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:05 -0800] [29560] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:05 -0800] [29560] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:06 -0800] [29560] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:06 -0800] [29560] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:06 -0800] [29560] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:07 -0800] [29560] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:07 -0800] [29560] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:07 -0800] [29560] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:08 -0800] [29560] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:16:09 -0800] [29564] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fe1470c5510>
+  on_reload: <function OnReload.on_reload at 0x7fe1470c5620>
+  when_ready: <function WhenReady.when_ready at 0x7fe1470c5730>
+  pre_fork: <function Prefork.pre_fork at 0x7fe1470c5840>
+  post_fork: <function Postfork.post_fork at 0x7fe1470c5950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fe1470c5a60>
+  worker_int: <function WorkerInt.worker_int at 0x7fe1470c5b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fe1470c5c80>
+  pre_exec: <function PreExec.pre_exec at 0x7fe1470c5d90>
+  pre_request: <function PreRequest.pre_request at 0x7fe1470c5ea0>
+  post_request: <function PostRequest.post_request at 0x7fe1470c5f28>
+  child_exit: <function ChildExit.child_exit at 0x7fe1470dc0d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fe1470dc1e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fe1470dc2f0>
+  on_exit: <function OnExit.on_exit at 0x7fe1470dc400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:16:09 -0800] [29564] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:16:09 -0800] [29564] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:09 -0800] [29564] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:09 -0800] [29564] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:10 -0800] [29564] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:10 -0800] [29564] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:10 -0800] [29564] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:11 -0800] [29564] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:11 -0800] [29564] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:11 -0800] [29564] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:12 -0800] [29564] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:12 -0800] [29564] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:12 -0800] [29564] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:13 -0800] [29564] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:13 -0800] [29564] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:13 -0800] [29564] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:14 -0800] [29564] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:16:14 -0800] [29568] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fde63629510>
+  on_reload: <function OnReload.on_reload at 0x7fde63629620>
+  when_ready: <function WhenReady.when_ready at 0x7fde63629730>
+  pre_fork: <function Prefork.pre_fork at 0x7fde63629840>
+  post_fork: <function Postfork.post_fork at 0x7fde63629950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fde63629a60>
+  worker_int: <function WorkerInt.worker_int at 0x7fde63629b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fde63629c80>
+  pre_exec: <function PreExec.pre_exec at 0x7fde63629d90>
+  pre_request: <function PreRequest.pre_request at 0x7fde63629ea0>
+  post_request: <function PostRequest.post_request at 0x7fde63629f28>
+  child_exit: <function ChildExit.child_exit at 0x7fde636410d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fde636411e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fde636412f0>
+  on_exit: <function OnExit.on_exit at 0x7fde63641400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:16:14 -0800] [29568] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:16:14 -0800] [29568] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:14 -0800] [29568] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:14 -0800] [29568] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:15 -0800] [29568] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:15 -0800] [29568] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:15 -0800] [29568] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:16 -0800] [29568] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:16 -0800] [29568] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:16 -0800] [29568] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:17 -0800] [29568] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:17 -0800] [29568] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:17 -0800] [29568] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:18 -0800] [29568] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:18 -0800] [29568] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:18 -0800] [29568] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:19 -0800] [29568] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:16:19 -0800] [29587] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fedd09a5510>
+  on_reload: <function OnReload.on_reload at 0x7fedd09a5620>
+  when_ready: <function WhenReady.when_ready at 0x7fedd09a5730>
+  pre_fork: <function Prefork.pre_fork at 0x7fedd09a5840>
+  post_fork: <function Postfork.post_fork at 0x7fedd09a5950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fedd09a5a60>
+  worker_int: <function WorkerInt.worker_int at 0x7fedd09a5b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fedd09a5c80>
+  pre_exec: <function PreExec.pre_exec at 0x7fedd09a5d90>
+  pre_request: <function PreRequest.pre_request at 0x7fedd09a5ea0>
+  post_request: <function PostRequest.post_request at 0x7fedd09a5f28>
+  child_exit: <function ChildExit.child_exit at 0x7fedd09bd0d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fedd09bd1e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fedd09bd2f0>
+  on_exit: <function OnExit.on_exit at 0x7fedd09bd400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:16:19 -0800] [29587] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:16:19 -0800] [29587] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:19 -0800] [29587] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:19 -0800] [29587] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:20 -0800] [29587] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:20 -0800] [29587] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:20 -0800] [29587] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:21 -0800] [29587] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:21 -0800] [29587] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:21 -0800] [29587] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:22 -0800] [29587] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:22 -0800] [29587] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:22 -0800] [29587] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:23 -0800] [29587] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:23 -0800] [29587] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:23 -0800] [29587] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:24 -0800] [29587] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:16:24 -0800] [29591] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f7e38199510>
+  on_reload: <function OnReload.on_reload at 0x7f7e38199620>
+  when_ready: <function WhenReady.when_ready at 0x7f7e38199730>
+  pre_fork: <function Prefork.pre_fork at 0x7f7e38199840>
+  post_fork: <function Postfork.post_fork at 0x7f7e38199950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f7e38199a60>
+  worker_int: <function WorkerInt.worker_int at 0x7f7e38199b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f7e38199c80>
+  pre_exec: <function PreExec.pre_exec at 0x7f7e38199d90>
+  pre_request: <function PreRequest.pre_request at 0x7f7e38199ea0>
+  post_request: <function PostRequest.post_request at 0x7f7e38199f28>
+  child_exit: <function ChildExit.child_exit at 0x7f7e381b10d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f7e381b11e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f7e381b12f0>
+  on_exit: <function OnExit.on_exit at 0x7f7e381b1400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:16:24 -0800] [29591] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:16:24 -0800] [29591] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:24 -0800] [29591] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:24 -0800] [29591] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:25 -0800] [29591] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:25 -0800] [29591] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:25 -0800] [29591] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:26 -0800] [29591] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:26 -0800] [29591] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:26 -0800] [29591] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:27 -0800] [29591] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:27 -0800] [29591] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:27 -0800] [29591] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:28 -0800] [29591] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:28 -0800] [29591] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:28 -0800] [29591] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:29 -0800] [29591] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:16:29 -0800] [29595] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f89289bb510>
+  on_reload: <function OnReload.on_reload at 0x7f89289bb620>
+  when_ready: <function WhenReady.when_ready at 0x7f89289bb730>
+  pre_fork: <function Prefork.pre_fork at 0x7f89289bb840>
+  post_fork: <function Postfork.post_fork at 0x7f89289bb950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f89289bba60>
+  worker_int: <function WorkerInt.worker_int at 0x7f89289bbb70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f89289bbc80>
+  pre_exec: <function PreExec.pre_exec at 0x7f89289bbd90>
+  pre_request: <function PreRequest.pre_request at 0x7f89289bbea0>
+  post_request: <function PostRequest.post_request at 0x7f89289bbf28>
+  child_exit: <function ChildExit.child_exit at 0x7f89289d30d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f89289d31e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f89289d32f0>
+  on_exit: <function OnExit.on_exit at 0x7f89289d3400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:16:29 -0800] [29595] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:16:29 -0800] [29595] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:29 -0800] [29595] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:29 -0800] [29595] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:30 -0800] [29595] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:30 -0800] [29595] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:30 -0800] [29595] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:31 -0800] [29595] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:31 -0800] [29595] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:31 -0800] [29595] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:32 -0800] [29595] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:32 -0800] [29595] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:32 -0800] [29595] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:33 -0800] [29595] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:33 -0800] [29595] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:33 -0800] [29595] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:34 -0800] [29595] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:16:34 -0800] [29599] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fd7a4b89510>
+  on_reload: <function OnReload.on_reload at 0x7fd7a4b89620>
+  when_ready: <function WhenReady.when_ready at 0x7fd7a4b89730>
+  pre_fork: <function Prefork.pre_fork at 0x7fd7a4b89840>
+  post_fork: <function Postfork.post_fork at 0x7fd7a4b89950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fd7a4b89a60>
+  worker_int: <function WorkerInt.worker_int at 0x7fd7a4b89b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fd7a4b89c80>
+  pre_exec: <function PreExec.pre_exec at 0x7fd7a4b89d90>
+  pre_request: <function PreRequest.pre_request at 0x7fd7a4b89ea0>
+  post_request: <function PostRequest.post_request at 0x7fd7a4b89f28>
+  child_exit: <function ChildExit.child_exit at 0x7fd7a4ba10d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fd7a4ba11e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fd7a4ba12f0>
+  on_exit: <function OnExit.on_exit at 0x7fd7a4ba1400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:16:34 -0800] [29599] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:16:34 -0800] [29599] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:34 -0800] [29599] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:34 -0800] [29599] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:35 -0800] [29599] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:35 -0800] [29599] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:35 -0800] [29599] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:36 -0800] [29599] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:36 -0800] [29599] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:36 -0800] [29599] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:37 -0800] [29599] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:37 -0800] [29599] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:37 -0800] [29599] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:38 -0800] [29599] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:38 -0800] [29599] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:38 -0800] [29599] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:39 -0800] [29599] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:16:39 -0800] [29603] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fc075ad0510>
+  on_reload: <function OnReload.on_reload at 0x7fc075ad0620>
+  when_ready: <function WhenReady.when_ready at 0x7fc075ad0730>
+  pre_fork: <function Prefork.pre_fork at 0x7fc075ad0840>
+  post_fork: <function Postfork.post_fork at 0x7fc075ad0950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fc075ad0a60>
+  worker_int: <function WorkerInt.worker_int at 0x7fc075ad0b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fc075ad0c80>
+  pre_exec: <function PreExec.pre_exec at 0x7fc075ad0d90>
+  pre_request: <function PreRequest.pre_request at 0x7fc075ad0ea0>
+  post_request: <function PostRequest.post_request at 0x7fc075ad0f28>
+  child_exit: <function ChildExit.child_exit at 0x7fc075ae80d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fc075ae81e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fc075ae82f0>
+  on_exit: <function OnExit.on_exit at 0x7fc075ae8400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:16:39 -0800] [29603] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:16:39 -0800] [29603] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:39 -0800] [29603] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:39 -0800] [29603] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:40 -0800] [29603] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:40 -0800] [29603] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:40 -0800] [29603] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:41 -0800] [29603] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:41 -0800] [29603] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:41 -0800] [29603] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:42 -0800] [29603] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:42 -0800] [29603] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:42 -0800] [29603] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:43 -0800] [29603] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:43 -0800] [29603] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:43 -0800] [29603] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:44 -0800] [29603] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:16:45 -0800] [29607] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fb7054f6510>
+  on_reload: <function OnReload.on_reload at 0x7fb7054f6620>
+  when_ready: <function WhenReady.when_ready at 0x7fb7054f6730>
+  pre_fork: <function Prefork.pre_fork at 0x7fb7054f6840>
+  post_fork: <function Postfork.post_fork at 0x7fb7054f6950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fb7054f6a60>
+  worker_int: <function WorkerInt.worker_int at 0x7fb7054f6b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fb7054f6c80>
+  pre_exec: <function PreExec.pre_exec at 0x7fb7054f6d90>
+  pre_request: <function PreRequest.pre_request at 0x7fb7054f6ea0>
+  post_request: <function PostRequest.post_request at 0x7fb7054f6f28>
+  child_exit: <function ChildExit.child_exit at 0x7fb70550f0d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fb70550f1e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fb70550f2f0>
+  on_exit: <function OnExit.on_exit at 0x7fb70550f400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:16:45 -0800] [29607] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:16:45 -0800] [29607] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:45 -0800] [29607] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:45 -0800] [29607] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:46 -0800] [29607] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:46 -0800] [29607] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:46 -0800] [29607] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:47 -0800] [29607] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:47 -0800] [29607] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:47 -0800] [29607] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:48 -0800] [29607] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:48 -0800] [29607] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:48 -0800] [29607] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:49 -0800] [29607] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:49 -0800] [29607] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:49 -0800] [29607] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:50 -0800] [29607] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:16:50 -0800] [29611] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f1279002510>
+  on_reload: <function OnReload.on_reload at 0x7f1279002620>
+  when_ready: <function WhenReady.when_ready at 0x7f1279002730>
+  pre_fork: <function Prefork.pre_fork at 0x7f1279002840>
+  post_fork: <function Postfork.post_fork at 0x7f1279002950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f1279002a60>
+  worker_int: <function WorkerInt.worker_int at 0x7f1279002b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f1279002c80>
+  pre_exec: <function PreExec.pre_exec at 0x7f1279002d90>
+  pre_request: <function PreRequest.pre_request at 0x7f1279002ea0>
+  post_request: <function PostRequest.post_request at 0x7f1279002f28>
+  child_exit: <function ChildExit.child_exit at 0x7f127901a0d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f127901a1e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f127901a2f0>
+  on_exit: <function OnExit.on_exit at 0x7f127901a400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:16:50 -0800] [29611] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:16:50 -0800] [29611] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:50 -0800] [29611] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:50 -0800] [29611] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:51 -0800] [29611] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:51 -0800] [29611] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:51 -0800] [29611] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:52 -0800] [29611] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:52 -0800] [29611] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:52 -0800] [29611] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:53 -0800] [29611] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:53 -0800] [29611] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:53 -0800] [29611] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:54 -0800] [29611] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:54 -0800] [29611] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:54 -0800] [29611] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:55 -0800] [29611] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:16:55 -0800] [29615] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f83a670f510>
+  on_reload: <function OnReload.on_reload at 0x7f83a670f620>
+  when_ready: <function WhenReady.when_ready at 0x7f83a670f730>
+  pre_fork: <function Prefork.pre_fork at 0x7f83a670f840>
+  post_fork: <function Postfork.post_fork at 0x7f83a670f950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f83a670fa60>
+  worker_int: <function WorkerInt.worker_int at 0x7f83a670fb70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f83a670fc80>
+  pre_exec: <function PreExec.pre_exec at 0x7f83a670fd90>
+  pre_request: <function PreRequest.pre_request at 0x7f83a670fea0>
+  post_request: <function PostRequest.post_request at 0x7f83a670ff28>
+  child_exit: <function ChildExit.child_exit at 0x7f83a67260d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f83a67261e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f83a67262f0>
+  on_exit: <function OnExit.on_exit at 0x7f83a6726400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:16:55 -0800] [29615] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:16:55 -0800] [29615] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:55 -0800] [29615] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:55 -0800] [29615] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:56 -0800] [29615] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:56 -0800] [29615] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:56 -0800] [29615] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:57 -0800] [29615] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:57 -0800] [29615] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:57 -0800] [29615] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:58 -0800] [29615] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:58 -0800] [29615] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:58 -0800] [29615] [ERROR] Retrying in 1 second.
+[2020-01-12 15:16:59 -0800] [29615] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:16:59 -0800] [29615] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:16:59 -0800] [29615] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:00 -0800] [29615] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:17:00 -0800] [29620] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f55ad4c7510>
+  on_reload: <function OnReload.on_reload at 0x7f55ad4c7620>
+  when_ready: <function WhenReady.when_ready at 0x7f55ad4c7730>
+  pre_fork: <function Prefork.pre_fork at 0x7f55ad4c7840>
+  post_fork: <function Postfork.post_fork at 0x7f55ad4c7950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f55ad4c7a60>
+  worker_int: <function WorkerInt.worker_int at 0x7f55ad4c7b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f55ad4c7c80>
+  pre_exec: <function PreExec.pre_exec at 0x7f55ad4c7d90>
+  pre_request: <function PreRequest.pre_request at 0x7f55ad4c7ea0>
+  post_request: <function PostRequest.post_request at 0x7f55ad4c7f28>
+  child_exit: <function ChildExit.child_exit at 0x7f55ad4df0d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f55ad4df1e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f55ad4df2f0>
+  on_exit: <function OnExit.on_exit at 0x7f55ad4df400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:17:00 -0800] [29620] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:17:00 -0800] [29620] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:00 -0800] [29620] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:00 -0800] [29620] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:01 -0800] [29620] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:01 -0800] [29620] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:01 -0800] [29620] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:02 -0800] [29620] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:02 -0800] [29620] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:02 -0800] [29620] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:03 -0800] [29620] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:03 -0800] [29620] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:03 -0800] [29620] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:04 -0800] [29620] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:04 -0800] [29620] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:04 -0800] [29620] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:05 -0800] [29620] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:17:05 -0800] [29626] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f01fe9f4510>
+  on_reload: <function OnReload.on_reload at 0x7f01fe9f4620>
+  when_ready: <function WhenReady.when_ready at 0x7f01fe9f4730>
+  pre_fork: <function Prefork.pre_fork at 0x7f01fe9f4840>
+  post_fork: <function Postfork.post_fork at 0x7f01fe9f4950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f01fe9f4a60>
+  worker_int: <function WorkerInt.worker_int at 0x7f01fe9f4b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f01fe9f4c80>
+  pre_exec: <function PreExec.pre_exec at 0x7f01fe9f4d90>
+  pre_request: <function PreRequest.pre_request at 0x7f01fe9f4ea0>
+  post_request: <function PostRequest.post_request at 0x7f01fe9f4f28>
+  child_exit: <function ChildExit.child_exit at 0x7f01fea0d0d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f01fea0d1e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f01fea0d2f0>
+  on_exit: <function OnExit.on_exit at 0x7f01fea0d400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:17:05 -0800] [29626] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:17:05 -0800] [29626] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:05 -0800] [29626] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:05 -0800] [29626] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:06 -0800] [29626] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:06 -0800] [29626] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:06 -0800] [29626] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:07 -0800] [29626] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:07 -0800] [29626] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:07 -0800] [29626] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:08 -0800] [29626] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:08 -0800] [29626] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:08 -0800] [29626] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:09 -0800] [29626] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:09 -0800] [29626] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:09 -0800] [29626] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:10 -0800] [29626] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:17:10 -0800] [29632] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f8a48b90510>
+  on_reload: <function OnReload.on_reload at 0x7f8a48b90620>
+  when_ready: <function WhenReady.when_ready at 0x7f8a48b90730>
+  pre_fork: <function Prefork.pre_fork at 0x7f8a48b90840>
+  post_fork: <function Postfork.post_fork at 0x7f8a48b90950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f8a48b90a60>
+  worker_int: <function WorkerInt.worker_int at 0x7f8a48b90b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f8a48b90c80>
+  pre_exec: <function PreExec.pre_exec at 0x7f8a48b90d90>
+  pre_request: <function PreRequest.pre_request at 0x7f8a48b90ea0>
+  post_request: <function PostRequest.post_request at 0x7f8a48b90f28>
+  child_exit: <function ChildExit.child_exit at 0x7f8a48ba80d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f8a48ba81e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f8a48ba82f0>
+  on_exit: <function OnExit.on_exit at 0x7f8a48ba8400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:17:10 -0800] [29632] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:17:10 -0800] [29632] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:10 -0800] [29632] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:10 -0800] [29632] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:11 -0800] [29632] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:11 -0800] [29632] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:11 -0800] [29632] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:12 -0800] [29632] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:12 -0800] [29632] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:12 -0800] [29632] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:13 -0800] [29632] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:13 -0800] [29632] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:13 -0800] [29632] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:14 -0800] [29632] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:14 -0800] [29632] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:14 -0800] [29632] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:15 -0800] [29632] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:17:16 -0800] [29636] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fa327941510>
+  on_reload: <function OnReload.on_reload at 0x7fa327941620>
+  when_ready: <function WhenReady.when_ready at 0x7fa327941730>
+  pre_fork: <function Prefork.pre_fork at 0x7fa327941840>
+  post_fork: <function Postfork.post_fork at 0x7fa327941950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fa327941a60>
+  worker_int: <function WorkerInt.worker_int at 0x7fa327941b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fa327941c80>
+  pre_exec: <function PreExec.pre_exec at 0x7fa327941d90>
+  pre_request: <function PreRequest.pre_request at 0x7fa327941ea0>
+  post_request: <function PostRequest.post_request at 0x7fa327941f28>
+  child_exit: <function ChildExit.child_exit at 0x7fa3279590d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fa3279591e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fa3279592f0>
+  on_exit: <function OnExit.on_exit at 0x7fa327959400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:17:16 -0800] [29636] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:17:16 -0800] [29636] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:16 -0800] [29636] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:16 -0800] [29636] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:17 -0800] [29636] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:17 -0800] [29636] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:17 -0800] [29636] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:18 -0800] [29636] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:18 -0800] [29636] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:18 -0800] [29636] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:19 -0800] [29636] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:19 -0800] [29636] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:19 -0800] [29636] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:20 -0800] [29636] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:20 -0800] [29636] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:20 -0800] [29636] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:21 -0800] [29636] [ERROR] Can't connect to ('0.0.0.0', 4000)
+[2020-01-12 15:17:21 -0800] [29640] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f56cb0ae510>
+  on_reload: <function OnReload.on_reload at 0x7f56cb0ae620>
+  when_ready: <function WhenReady.when_ready at 0x7f56cb0ae730>
+  pre_fork: <function Prefork.pre_fork at 0x7f56cb0ae840>
+  post_fork: <function Postfork.post_fork at 0x7f56cb0ae950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f56cb0aea60>
+  worker_int: <function WorkerInt.worker_int at 0x7f56cb0aeb70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f56cb0aec80>
+  pre_exec: <function PreExec.pre_exec at 0x7f56cb0aed90>
+  pre_request: <function PreRequest.pre_request at 0x7f56cb0aeea0>
+  post_request: <function PostRequest.post_request at 0x7f56cb0aef28>
+  child_exit: <function ChildExit.child_exit at 0x7f56cb0c60d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f56cb0c61e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f56cb0c62f0>
+  on_exit: <function OnExit.on_exit at 0x7f56cb0c6400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:17:21 -0800] [29640] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:17:21 -0800] [29640] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:21 -0800] [29640] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:21 -0800] [29640] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:22 -0800] [29640] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:22 -0800] [29640] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:22 -0800] [29640] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:23 -0800] [29640] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:23 -0800] [29640] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:23 -0800] [29640] [ERROR] Retrying in 1 second.
+[2020-01-12 15:17:24 -0800] [29640] [ERROR] Connection in use: ('0.0.0.0', 4000)
+[2020-01-12 15:17:24 -0800] [29640] [DEBUG] connection to ('0.0.0.0', 4000) failed: [Errno 98] Address already in use
+[2020-01-12 15:17:24 -0800] [29640] [ERROR] Retrying in 1 second.
+[2020-01-12 15:19:03 -0800] [29003] [ERROR] Connection in use: ('0.0.0.0', 9000)
+[2020-01-12 15:19:03 -0800] [29003] [DEBUG] connection to ('0.0.0.0', 9000) failed: [Errno 98] Address already in use
+[2020-01-12 15:19:03 -0800] [29003] [ERROR] Retrying in 1 second.
+[2020-01-12 15:19:04 -0800] [29003] [ERROR] Connection in use: ('0.0.0.0', 9000)
+[2020-01-12 15:19:04 -0800] [29003] [DEBUG] connection to ('0.0.0.0', 9000) failed: [Errno 98] Address already in use
+[2020-01-12 15:19:04 -0800] [29003] [ERROR] Retrying in 1 second.
+[2020-01-12 15:19:05 -0800] [29003] [ERROR] Can't connect to ('0.0.0.0', 9000)
+[2020-01-12 15:19:09 -0800] [29091] [INFO] Worker exiting (pid: 29091)
+[2020-01-12 15:19:09 -0800] [29087] [CRITICAL] WORKER TIMEOUT (pid:29091)
+[2020-01-12 15:19:09 -0800] [29087] [INFO] Handling signal: term
+[2020-01-12 15:19:09 -0800] [29087] [INFO] Shutting down: Master
+[2020-01-12 15:19:13 -0800] [29640] [DEBUG] Arbiter booted
+[2020-01-12 15:19:13 -0800] [29640] [INFO] Listening at: http://0.0.0.0:4000 (29640)
+[2020-01-12 15:19:13 -0800] [29640] [INFO] Using worker: sync
+[2020-01-12 15:19:13 -0800] [29771] [INFO] Booting worker with pid: 29771
+[2020-01-12 15:19:13 -0800] [29640] [DEBUG] 1 workers
+[2020-01-12 15:19:13 -0800] [29640] [INFO] Handling signal: term
+[(0, 3), (1, 3), (2, 7), (3, 1), (4, 2), (5, 6), (6, 8), (7, 7), (8, 8), (9, 2), (10, 8), (11, 2), (12, 1), (13, 5), (14, 7), (15, 3), (16, 7), (17, 7), (18, 2), (19, 4), (0, 16), (1, 11), (2, 10), (3, 9), (4, 2), (5, 14), (6, 18), (7, 4), (8, 11), (9, 3), (10, 4), (11, 10), (12, 18), (13, 1), (14, 10), (15, 4), (16, 5), (17, 6), (18, 18), (19, 18), (20, 15), (21, 5), (22, 8), (23, 17), (24, 12), (25, 4), (26, 15), (27, 1), (28, 3), (29, 15), (30, 16), (31, 13), (32, 3), (33, 13), (34, 10), (35, 14), (36, 5), (37, 2), (38, 3), (39, 18), (40, 16), (41, 2), (42, 1), (43, 6), (44, 4)]
+[(0, 3), (1, 3), (2, 7), (3, 1), (4, 2), (5, 6), (6, 8), (7, 7), (8, 8), (9, 2), (10, 8), (11, 2), (12, 1), (13, 5), (14, 7), (15, 3), (16, 7), (17, 7), (18, 2), (19, 4), (0, 16), (1, 11), (2, 10), (3, 9), (4, 2), (5, 14), (6, 18), (7, 4), (8, 11), (9, 3), (10, 4), (11, 10), (12, 18), (13, 1), (14, 10), (15, 4), (16, 5), (17, 6), (18, 18), (19, 18), (20, 15), (21, 5), (22, 8), (23, 17), (24, 12), (25, 4), (26, 15), (27, 1), (28, 3), (29, 15), (30, 16), (31, 13), (32, 3), (33, 13), (34, 10), (35, 14), (36, 5), (37, 2), (38, 3), (39, 18), (40, 16), (41, 2), (42, 1), (43, 6), (44, 4)]
+time header: 
+ 
+ 
+ 
+ 
+seconds since epoch
+1578871153.4
+days since epocj
+18273.97168287037
+rounded start date
+18273
+days since start
+0.9716828703712963
+[(1, 'katnis', 12345, 51, 90), (2, 'JellyDonuts', 2019, 13478, 1), (3, 'vader', 555, 820, 80), (4, 'meep', 0, 100000000, 90), (5, 'grettle', 559, 1, 70), (6, '200', 2020, 0, 0), (7, '201', 7145, 0, 0), (8, '202', 5397, 0, 0), (9, '203', 7934, 0, 0), (10, '204', 1965, 0, 0), (11, '205', 2571, 0, 0), (12, '206', 3159, 0, 0), (13, '207', 8128, 0, 0), (14, '208', 6298, 0, 0), (15, '209', 6266, 0, 0), (16, '210', 7796, 0, 0), (17, '211', 8228, 0, 0), (18, '216', 1039, 0, 0), (19, '217', 2830, 0, 0), (20, '218', 2840, 0, 0), (21, '221', 1093, 0, 0)]
+[2020-01-12 15:19:13 -0800] [29771] [INFO] Worker exiting (pid: 29771)
+[2020-01-12 15:19:13 -0800] [29640] [INFO] Shutting down: Master
+[2020-01-12 15:19:21 -0800] [29788] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f60e8987510>
+  on_reload: <function OnReload.on_reload at 0x7f60e8987620>
+  when_ready: <function WhenReady.when_ready at 0x7f60e8987730>
+  pre_fork: <function Prefork.pre_fork at 0x7f60e8987840>
+  post_fork: <function Postfork.post_fork at 0x7f60e8987950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f60e8987a60>
+  worker_int: <function WorkerInt.worker_int at 0x7f60e8987b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f60e8987c80>
+  pre_exec: <function PreExec.pre_exec at 0x7f60e8987d90>
+  pre_request: <function PreRequest.pre_request at 0x7f60e8987ea0>
+  post_request: <function PostRequest.post_request at 0x7f60e8987f28>
+  child_exit: <function ChildExit.child_exit at 0x7f60e899f0d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f60e899f1e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f60e899f2f0>
+  on_exit: <function OnExit.on_exit at 0x7f60e899f400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:19:21 -0800] [29788] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:19:21 -0800] [29788] [DEBUG] Arbiter booted
+[2020-01-12 15:19:21 -0800] [29788] [INFO] Listening at: http://0.0.0.0:4000 (29788)
+[2020-01-12 15:19:21 -0800] [29788] [INFO] Using worker: sync
+[2020-01-12 15:19:21 -0800] [29792] [INFO] Booting worker with pid: 29792
+[(0, 3), (1, 3), (2, 7), (3, 1), (4, 2), (5, 6), (6, 8), (7, 7), (8, 8), (9, 2), (10, 8), (11, 2), (12, 1), (13, 5), (14, 7), (15, 3), (16, 7), (17, 7), (18, 2), (19, 4), (0, 16), (1, 11), (2, 10), (3, 9), (4, 2), (5, 14), (6, 18), (7, 4), (8, 11), (9, 3), (10, 4), (11, 10), (12, 18), (13, 1), (14, 10), (15, 4), (16, 5), (17, 6), (18, 18), (19, 18), (20, 15), (21, 5), (22, 8), (23, 17), (24, 12), (25, 4), (26, 15), (27, 1), (28, 3), (29, 15), (30, 16), (31, 13), (32, 3), (33, 13), (34, 10), (35, 14), (36, 5), (37, 2), (38, 3), (39, 18), (40, 16), (41, 2), (42, 1), (43, 6), (44, 4)]
+[(0, 3), (1, 3), (2, 7), (3, 1), (4, 2), (5, 6), (6, 8), (7, 7), (8, 8), (9, 2), (10, 8), (11, 2), (12, 1), (13, 5), (14, 7), (15, 3), (16, 7), (17, 7), (18, 2), (19, 4), (0, 16), (1, 11), (2, 10), (3, 9), (4, 2), (5, 14), (6, 18), (7, 4), (8, 11), (9, 3), (10, 4), (11, 10), (12, 18), (13, 1), (14, 10), (15, 4), (16, 5), (17, 6), (18, 18), (19, 18), (20, 15), (21, 5), (22, 8), (23, 17), (24, 12), (25, 4), (26, 15), (27, 1), (28, 3), (29, 15), (30, 16), (31, 13), (32, 3), (33, 13), (34, 10), (35, 14), (36, 5), (37, 2), (38, 3), (39, 18), (40, 16), (41, 2), (42, 1), (43, 6), (44, 4)]
+time header: 
+ 
+ 
+ 
+ 
+seconds since epoch
+1578871161.6
+days since epocj
+18273.971777777777
+rounded start date
+18273
+days since start
+0.9717777777768788
+[2020-01-12 15:19:21 -0800] [29788] [DEBUG] 1 workers
+[(1, 'katnis', 12345, 51, 90), (2, 'JellyDonuts', 2019, 13478, 1), (3, 'vader', 555, 820, 80), (4, 'meep', 0, 100000000, 90), (5, 'grettle', 559, 1, 70), (6, '200', 2020, 0, 0), (7, '201', 7145, 0, 0), (8, '202', 5397, 0, 0), (9, '203', 7934, 0, 0), (10, '204', 1965, 0, 0), (11, '205', 2571, 0, 0), (12, '206', 3159, 0, 0), (13, '207', 8128, 0, 0), (14, '208', 6298, 0, 0), (15, '209', 6266, 0, 0), (16, '210', 7796, 0, 0), (17, '211', 8228, 0, 0), (18, '216', 1039, 0, 0), (19, '217', 2830, 0, 0), (20, '218', 2840, 0, 0), (21, '221', 1093, 0, 0)]
+[2020-01-12 15:20:03 -0800] [29792] [DEBUG] GET /
+[2020-01-12 15:20:03 -0800] [29792] [DEBUG] GET /static/homeStyle2.css
+[2020-01-12 15:20:10 -0800] [29792] [DEBUG] Closing connection. 
+[2020-01-12 15:20:12 -0800] [29792] [DEBUG] POST /post_login_data
+[(12345,), (2019,), (555,), (0,), (559,), (2020,), (7145,), (5397,), (7934,), (1965,), (2571,), (3159,), (8128,), (6298,), (6266,), (7796,), (8228,), (1039,), (2830,), (2840,), (1093,)]
+[('katnis',), ('JellyDonuts',), ('vader',), ('meep',), ('grettle',), ('200',), ('201',), ('202',), ('203',), ('204',), ('205',), ('206',), ('207',), ('208',), ('209',), ('210',), ('211',), ('216',), ('217',), ('218',), ('221',)]
+no match
+no match
+no match
+no match
+no match
+we have a match
+User logged in
+[(12345,), (2019,), (555,), (0,), (559,), (2020,), (7145,), (5397,), (7934,), (1965,), (2571,), (3159,), (8128,), (6298,), (6266,), (7796,), (8228,), (1039,), (2830,), (2840,), (1093,)]
+id:
+[(6,)]
+[(1,), (2,), (3,), (4,), (5,), (6,), (7,), (8,), (9,), (10,), (11,), (12,), (13,), (14,), (15,), (16,), (17,), (18,), (19,), (20,), (21,)]
+{'status': 'true', 'message': 'congratulations! You are logged in', 'id': [(6,)], 'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)]}
+[2020-01-12 15:20:12 -0800] [29792] [DEBUG] GET /static/home.html
+[2020-01-12 15:20:12 -0800] [29792] [DEBUG] GET /static/homeStyle2.css
+[2020-01-12 15:20:12 -0800] [29792] [DEBUG] POST /get_user_info
+6
+[(1, 'katnis', 12345, 51, 90)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '6'}
