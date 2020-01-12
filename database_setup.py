@@ -91,28 +91,40 @@ def setup_database():
 
 
     sql_add_actions = """Insert into action_table ( action_message, reward)
-                            values ('Use a reusable water bottle, cup, straw, takeout container, or a similar item. Or, avoid using one in the first place.',110),
-                             ('Reuse old bags or use reusable bags or containers to avoid wasting plastic bags such as (but not limited to): grocery bags, produce bags, ziplock lunch bags, and takeout bags.',220),
-                             ('Car pool or take public transportation.',330),
-                             ('Walk or bike instead of driving',440),
-                             ('Take a shower instead of a bath.',440),
-                             ('Decide to eat vegetarian for a day.',440),
-                             ('Buy produce localy',440),
-                       
-                             ('Wash clothes in cold water.',440);
+                            values ('Avoid using a disposable plastic container. You can achieve this by using a reusable cup, water bottle, or takeout container. Or you can choose not to use the item int he first place.',10),
+                             ('Reuse old bags or use reusable bags or containers to avoid wasting plastic bags such as (but not limited to): grocery bags, produce bags, ziplock lunch bags, and takeout bags.',10),
+                             ('Avoid using single use plastic.',10),
+                             ('Car pool or take public transportation.',10),
+                             ('Walk or bike instead of driving.',10),
+                             ('Save food from being wasted - cook with some veggies that are about to go bad, or eat leftovers that would otherwise go to waste.',10),
+                             ('Take a short shower instead of a bath.',10),
+                             ('Eat vegetarian for a day.',10),
+                             ('Buy produce locally',10),
+                
+                             ('Wash clothes in cold water.',10);
                             
                         """
 
 
 
 
-
     sql_add_userdata = """Insert into userdata ( username, password, ep, challanges_competed)
-                            values ('katnis', '12345', 51, 90),
-                             ('JellyDonuts', 2019, 13478, 1),
-                             ('vader', 555, 820, 80),
-                             ('meep', 0, 100000000, 90),
-                             ('grettle', 559, 1, 70);
+                            values 
+                            ('201', '7145', 0,0),
+('202', '5397', 0,0),
+('203', '7934', 0,0),
+('204', '1965', 0,0),
+('205', '2571', 0,0),
+('206', '3159', 0,0),
+('207', '8128', 0,0),
+('208', '6298', 0,0),
+('209', '6266', 0,0),
+('210', '7796', 0,0),
+('211', '8228', 0,0),
+('216', '1039', 0,0),
+('217', '2830', 0,0),
+('218', '2840', 0,0),
+('221', '1093', 0,0);
                         """
 
 
@@ -162,7 +174,7 @@ def setup_database():
         number_of_actions = c.execute("select count(actionId) from action_table").fetchall()
         yesterday=0
 
-        for i in range(20):
+        for i in range(45):
             random_id = random.randint(1,number_of_actions[0][0])
             print(random.randint(1,number_of_actions[0][0]))
             if random_id == yesterday:
@@ -185,18 +197,6 @@ def setup_database():
     else:
         print("Error! cannot create the database connection.")
 
-
-
-
-
-
-
-
-
-if __name__ == '__main__':
-    main()
-    c = sqlite3.connect("database.db")
-    print(c.execute("select * from challangetable").fetchall())
 
 
 
