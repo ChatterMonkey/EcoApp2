@@ -4337,3 +4337,24 @@ logging action...
 48230.1
 [(1, 4, 170.5), (14, 10, 48129), (14, 7, 48167.3), (14, 6, 48179.7), (14, 1, 48218.3), (14, 2, 48230.1)]
 [2020-01-13 07:56:49 -0800] [6016] [INFO] Booting worker with pid: 6016
+[2020-01-13 08:21:00 -0800] [6016] [DEBUG] POST /get_user_info
+[2020-01-13 08:21:00 -0800] [6016] [DEBUG] POST /return_action_message
+[2020-01-13 08:21:05 -0800] [6016] [DEBUG] POST /register_action
+[2020-01-13 08:21:07 -0800] [6016] [DEBUG] POST /get_user_info
+[2020-01-13 08:21:07 -0800] [6016] [DEBUG] POST /return_action_message
+[2020-01-13 08:21:09 -0800] [6016] [DEBUG] POST /register_action
+[2020-01-13 08:21:14 -0800] [6016] [DEBUG] POST /return_action_message
+[2020-01-13 08:21:14 -0800] [6016] [DEBUG] POST /get_user_info
+[2020-01-13 08:21:15 -0800] [6016] [DEBUG] POST /register_action
+[2020-01-13 08:21:23 -0800] [6016] [DEBUG] POST /return_action_message
+[2020-01-13 08:21:23 -0800] [6016] [DEBUG] POST /get_user_info
+[2020-01-13 08:21:24 -0800] [6016] [DEBUG] POST /register_action
+[2020-01-13 08:30:27 -0800] [6016] [DEBUG] POST /get_user_info
+[2020-01-13 08:30:27 -0800] [6016] [DEBUG] POST /return_action_message
+[2020-01-13 08:30:28 -0800] [6016] [DEBUG] POST /register_action
+[2020-01-13 08:39:22 -0800] [6016] [DEBUG] GET /
+[2020-01-13 08:39:22 -0800] [6016] [DEBUG] GET /static/home.html
+[2020-01-13 08:39:22 -0800] [6016] [DEBUG] GET /static/homeStyle2.css
+[2020-01-13 08:39:23 -0800] [6016] [DEBUG] GET /favicon.ico
+[2020-01-13 08:39:27 -0800] [6016] [DEBUG] GET /
+[2020-01-13 08:39:28 -0800] [6016] [DEBUG] GET /static/home.html
