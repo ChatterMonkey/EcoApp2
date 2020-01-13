@@ -3600,3 +3600,97 @@ Ep value fort this user:
 [2020-01-12 17:53:31 -0800] [1018] [INFO] Handling signal: term
 [2020-01-12 17:53:31 -0800] [3124] [INFO] Booting worker with pid: 3124
 [2020-01-12 17:54:01 -0800] [1018] [INFO] Shutting down: Master
+[2020-01-12 17:54:21 -0800] [1020] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f96c23cf488>
+  on_reload: <function OnReload.on_reload at 0x7f96c23cf598>
+  when_ready: <function WhenReady.when_ready at 0x7f96c23cf6a8>
+  pre_fork: <function Prefork.pre_fork at 0x7f96c23cf7b8>
+  post_fork: <function Postfork.post_fork at 0x7f96c23cf8c8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f96c23cf9d8>
+  worker_int: <function WorkerInt.worker_int at 0x7f96c23cfae8>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f96c23cfbf8>
+  pre_exec: <function PreExec.pre_exec at 0x7f96c23cfd08>
+  pre_request: <function PreRequest.pre_request at 0x7f96c23cfe18>
+  post_request: <function PostRequest.post_request at 0x7f96c23cfea0>
+  child_exit: <function ChildExit.child_exit at 0x7f96c23e7048>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f96c23e7158>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f96c23e7268>
+  on_exit: <function OnExit.on_exit at 0x7f96c23e7378>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 17:54:21 -0800] [1020] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 17:54:21 -0800] [1020] [DEBUG] Arbiter booted
+[2020-01-12 17:54:21 -0800] [1020] [INFO] Listening at: http://0.0.0.0:4000 (1020)
+[2020-01-12 17:54:21 -0800] [1020] [INFO] Using worker: sync
+[2020-01-12 17:54:21 -0800] [1109] [INFO] Booting worker with pid: 1109
+[2020-01-12 17:54:21 -0800] [1020] [DEBUG] 1 workers
+[2020-01-12 17:57:00 -0800] [1109] [DEBUG] GET /static/home.html
+[2020-01-12 17:57:07 -0800] [1109] [DEBUG] POST /post_login_data
+[2020-01-12 17:57:07 -0800] [1109] [DEBUG] GET /static/home.html
+[2020-01-12 17:57:07 -0800] [1109] [DEBUG] GET /static/homeStyle2.css
+[2020-01-12 17:57:07 -0800] [1109] [DEBUG] POST /get_user_info
