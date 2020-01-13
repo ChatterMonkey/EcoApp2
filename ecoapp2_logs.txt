@@ -4475,3 +4475,29 @@ Ep value fort this user:
 {'username': [('208',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '9'}
 [2020-01-13 13:25:45 -0800] [6930] [INFO] Booting worker with pid: 6930
 [2020-01-13 13:40:23 -0800] [6930] [DEBUG] Invalid request from ip=185.153.199.202: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-01-13 14:01:08 -0800] [6930] [DEBUG] POST /return_action_message
+[2020-01-13 14:01:08 -0800] [6930] [DEBUG] POST /get_user_info
+[2020-01-13 14:01:09 -0800] [6930] [DEBUG] POST /register_action
+[2020-01-13 14:14:04 -0800] [6930] [DEBUG] GET /
+[2020-01-13 14:14:04 -0800] [6930] [DEBUG] GET /static/home.html
+[2020-01-13 14:14:04 -0800] [6930] [DEBUG] GET /static/homeStyle2.css
+[2020-01-13 14:14:05 -0800] [6930] [DEBUG] GET /favicon.ico
+[2020-01-13 14:14:15 -0800] [6930] [DEBUG] GET /
+[2020-01-13 14:14:15 -0800] [6930] [DEBUG] GET /static/home.html
+[2020-01-13 14:14:15 -0800] [6930] [DEBUG] GET /static/homeStyle2.css
+[2020-01-13 14:17:03 -0800] [6930] [DEBUG] POST /post_login_data
+[2020-01-13 14:17:03 -0800] [6930] [DEBUG] GET /static/home.html
+[2020-01-13 14:17:03 -0800] [6930] [DEBUG] POST /get_user_info
+[2020-01-13 14:18:30 -0800] [6930] [DEBUG] POST /get_user_info
+[2020-01-13 14:18:30 -0800] [6930] [DEBUG] POST /return_action_message
+[2020-01-13 14:18:33 -0800] [6930] [DEBUG] POST /register_action
+[2020-01-13 14:18:46 -0800] [6930] [DEBUG] POST /post_login_data
+[2020-01-13 14:18:49 -0800] [6930] [DEBUG] POST /post_login_data
+[2020-01-13 14:18:49 -0800] [6930] [DEBUG] GET /static/home.html
+[2020-01-13 14:18:49 -0800] [6930] [DEBUG] POST /get_user_info
+[2020-01-13 14:18:49 -0800] [6930] [DEBUG] GET /static/home.html
+[2020-01-13 14:18:49 -0800] [6930] [DEBUG] POST /get_user_info
+[2020-01-13 14:19:07 -0800] [6930] [DEBUG] GET /static/info.html
+[2020-01-13 14:19:07 -0800] [6930] [DEBUG] GET /static/info_style.css
+[2020-01-13 14:19:21 -0800] [6930] [DEBUG] POST /get_user_info
+[2020-01-13 14:19:41 -0800] [6930] [DEBUG] Closing connection. 
