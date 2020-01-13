@@ -110,6 +110,7 @@ def setup_database():
 
     sql_add_userdata = """Insert into userdata ( username, password, ep, challanges_competed)
                             values 
+                            ('200','2020',0,0),
                             ('201', '7145', 0,0),
 ('202', '5397', 0,0),
 ('203', '7934', 0,0),

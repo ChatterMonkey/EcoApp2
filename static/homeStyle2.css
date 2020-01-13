@@ -20,7 +20,7 @@
 body {
 
 
- font-family: 'Comfortaa', cursive;
+ font-family: 'Comfortaa', ariel;
  font-weight: bolder;
  text-align: center;
 }
@@ -68,14 +68,6 @@ margin: 0.5em;
 
 
 
- .info_button{
-font-size:36px;
- border-style:solid;
-display-style:inline-block;
-border-width: 3px;
-border-radius: 25px;
-border-color:black
- }
 
 
 #login-logout{
@@ -84,31 +76,32 @@ text-align: center;
 
 }
 
+
 #login{
 display: none;
 
 border-style: solid;
-width: 500px;
+width: 300px;
 height: 50px;
 margin: 0px;
 padding: 0px;
+border-radius:0px;
 
 
-font-size: 2em;
 text-align: center;
 
 }
 
 #logout{
 display: none;
-
-width: 500px;
+border-radius:0px;
+width: 300px;
 height: 50px;
 border-style: solid;
 margin: 0px;
 padding: 0px;
 
-font-size: 2em;
+
 text-align: center;
 
 }
@@ -406,26 +399,20 @@ margin: -2% 1em 1em 1em;
 border-style: none;
 }
 
-.info_button{
-font-size:36px;
- border-style:solid;
-display-style:inline-block;
-border-width: 3px;
-border-radius: 25px;
-border-color:black
- }
-
 div.button-img-group {
 
 display: block;
 border:1px solid black;
 font-size: xx-large;
-
+float: left;
   width: 80%;
 
 opacity: 0.8;
-text-align:center;
-position: relative;
+
+
+
+
+
 
  padding:5%;
  margin: 5%;
@@ -433,8 +420,6 @@ position: relative;
  border-radius: 1em;
 
 }
-
-
 
 
 

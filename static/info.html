@@ -5,84 +5,8 @@
    <title>Information Page</title>
 <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
 
-     <link rel="stylesheet" type="text/css" href="infoStyle.css">
 
-
-
-
-<style>
-
-
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
-  overflow-x: hidden;
-  transition: 0.5s;
-}
-
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 60px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 100px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
-  }
-}
-</style>    <!-- menue style -->
-<span style="font-size:90px;cursor:pointer" onclick="openNav()">&#9776;</span>
-<script>
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
-
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>   <!-- menu script -->
-<div id="myNav" class="overlay">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <div class="overlay-content">
-    <a href="home.html">Home</a>
-    <a href="actions.html">Actions</a>
-    <a href="community.html">Community</a>
-
-
-  </div>
-</div> <!-- menu overlay -->
+<link rel="stylesheet" type="text/css" href="info_style.css">
 
 
 
@@ -93,14 +17,16 @@ function closeNav() {
 
 
 </head>
-<body style="line-height:2;">
+
+
+<body>
 
 
 
 
+<div >
 
-
-
+<a href="home.html">Home Page</a>
 <p id="header">Information</p>
 
 
@@ -109,10 +35,10 @@ function closeNav() {
     <li><a href="#plasticbags">Single use plastic bags</a></li>
  <li><a href="#plasticcontainers">Single use plastic containers</a></li>
  <li><a href="#otherplastic">Other single use plastics</a></li>
- <li><a href="#carpool">Carpooling</a></li>
- <li><a href="#pt">Public transportation</a></li>
+ <li><a href="#carpool">carpooling</a></li>
+ <li><a href="#pt">public transportation</a></li>
  <li><a href="#bikingwalking">Biking and walking</a></li>
-   <li><a href="#foodwaste">Food waste</a></li>
+   <li><a href="#foodwaster">Food waste</a></li>
    <li><a href="#water">Baths vs. Showers</a></li>
    <li><a href="#vegetarian">Eating vegetarian</a></li>
    <li><a href="#eatlocal">Food miles and eating local</a></li>
@@ -131,7 +57,7 @@ function closeNav() {
 <h1>Reducing  Plastic Waste</h1>
 
 
-<h3> Plastic is ubiquitous in our lives. We buy a constant stream of plastic, almost half of which serves as packaging. What happens with all of this plastic? 50% is designated for single use items which are only used for a few minutes before we toss it away to pollute the earth for hundreds of years.<sup>1</sup> Our waste management system is unable to contain and recycle much of this plastic. In fact, 8 million tons of plastic each year are dumped into the world’s oceans.<sup>1</sup> One report predicts that by 2050, there will be more pounds of plastic then pounds of fish in the ocean.<sup>2</sup> Plastic strangles, chokes, and suffocates wildlife. We humans are victims of our own pollution as well, since every year, you ingest and inhale more than 74,000 bits of micro plastic.<sup>3</sup> Most of the plastic that we use is unnecessary and easily avoidable. Below are categories of disposable plastic waste you should avoid using. If you avoid using them by bypassing them all together or using a reusable version, reward your self with eco points by selecting the action under <a href="actions.html">the actions page</a>.
+<h3> Plastic is ubiquitous in our lives. We buy a constant stream of plastic, almost half of which serves as packaging. What happens with all of this plastic? 50% is designated for single use items which are only used for a few minutes before tossed away to pollute the earth for hundreds of years.<sup>1</sup> Our waste management system is unable to contain and recycle much of this plastic. In fact, 8 million tons of plastic each year are dumped into the world’s oceans.<sup>1</sup> One report predicts that by 2050, there will be more plastic, pound for pound then fish in the ocean.<sup>2</sup> Plastic strangles, chokes, and suffocates wildlife, and we humans are victums of our own pollution as well. Every year, you ingest and inhale more than 74,000 bits of micro plastic every year.<sup>3</sup> Most of the plastic that we go through is unessecary and easaly avoidable. Below are two rough categories of disposable plastic waste that you should select under the actions page if you avoid using.
 </h3>
 
 
@@ -141,10 +67,10 @@ function closeNav() {
 <a name="plasticbags"></a>
 <h3>Single Use Plastic Bags</h3>
 
-<p>Most plastic that is produced is only used for a short period of time. Plastic bags for example, are only used for 12 minutes on average!<sup>4</sup> That is just an instant compared to the hundreds of years that that bag will exist.<sup>4</sup> Furthermore, out of all the 100 billion bags people in the US use every year, only one bag in 200 actually gets recycled, a process which damages the polymers and can only be done once or twice.<sup>4</sup> <br> All over the world, a million plastic bags are being used per minute.<sup>4</sup>
- If bags don’t get recycled, what happens to them? Mostly, these bags escape into the environment, and end up in the ocean where they are eaten by animals.<sup>5</sup> Plastic bags kill their victims slowly and painfully by staying trapped in the animal’s guts and slowly starving the animal to death.<sup>5</sup> Then, once the animal dies, the body decays, releasing the plastic back into the ocean to continue its silent murder for 1,000 more years.<sup>5</sup>
-Luckily, you have a lot of control over if you use plastic bags. I am sure that you already have reusable shopping bags, and reusable sandwich bags are an inexpensive alternative to disposable plastic sandwich bags.
-But there is always the option of simply avoiding the disposable bag. You can pack your sandwich in a reusable container, and take a jar or cloth bag to the bulk section of a grocery store (they will weigh it for you and subtract that weight from your purchase!). You can also easily reuse bags that you use to buy produce at a farmers market - just keep them in your car with your grocery bags so you will always have them on hand.
+<p>Most plastic that is produced is only used for a short period of time. Plastic bags for example, are only used for 12 minutes on average!<sup>4</sup> That is just an instant compared to the hundreds of years that that bag will exist.<sup>4</sup> Furthermore, out of all the 100 billion bags people in the US use every year, only one in 200 actually gets recycled, a process that, even then, damages the polymers and can only be done once or twice.<sup>4</sup> All over the world, a million plastic bags are being used per minute.<sup>4</sup>
+ If bags don’t get recycled, what happens to them? Mostly, these bags escape to the environment, and end up in the ocean where they are eaten by animals.<sup>5</sup> Plastic bags kill their victims slowly and painfully by staying trapped in the animal’s guts and slowly starving the animal to death.<sup>5</sup> Then, once the animal dies, the body decays, releasing the plastic back into the ocean to continue it’s silent murder for 1,000 more years.<sup>5</sup>
+We use all kinds of bags in our consumer life from plastic sandwich bags to packaging to takeout bags to grocery bags. Luckily, you have a lot of control over if you use these bags. I am sure that you already have reusable shopping bags, and reusable sandwich bags are an inexpensive alternative to disposable plastic sandwich bags.
+But there is always the option to avoid using a disposable bag at all. You can pack your sandwich in a reusable container, and take a jar or cloth bag to the bulk section of a grocery store (they will weigh it for you and subtract that weight from your purchase) to avoid the bags that contain the foods we buy. You can also easily reuse bags that you use to buy produce at a farmers market - just keep them in your car with your grocery bags so you will always have them on hand.
 </p>
 
 
@@ -157,7 +83,7 @@ But there is always the option of simply avoiding the disposable bag. You can pa
 <a name="plasticcontainers"></a>
 <h3>Single Use Plastic Containers</h3>
 
-    <p> Single use plastics can take the form of not only plastic bags of all kinds, but also plastic take out containers (clamshells) and drink cups from places like Starbucks and bubble tea stores. For example, plastic water bottles are a huge source of waste. We buy a million bottles a minute.<sup>6</sup> And, within the United States, only 30% of these bottles are recycled <sup>7</sup> Most of the time plastic bottles are avoidable. You could use a reusable bottle instead. If you have to buy a drink while out, choose a metal can. If you make sure it gets to a recycling bin, you are doing a huge service to the environment. Metal cans be recycled an indefinite number of times and 70% of aluminum cans are made from recycled metal in the first place.<sup>8</sup> Places like Starbucks will make your drink in your own container. Check on Amazon for a reusable container or just bring a reusable container and a reusable straw. Even bubble tea stores will almost always make your drink in your own container. The market is flooded with plastic containers, but you <u>can</u> find ways to avoid them.
+<p> The stream of single use plastic that we go through take the form of not only plastic bags of all kinds, but also plastic take out containers (clam shells) drink cups from places like Starbucks and bubble tea stores. Plastic water bottles are a huge source of waste we buy a million bottles a minute.<sup>6</sup> And within the United States, only 30% of these bottles are recycled <sup>7</sup> And why? Most of the time plastic bottles are 100% avoidable, and you could use a reusable bottle instead. If you have to by a drink while out, choose a metal can. If you make sure it goes to the recycleing bin, you are doing a huge service to the environment. Metal can be recycled essentially and indefinite number of times and 70% of aluminum cans are made from recycled metal in the first place.<sup>8</sup> Places like starbucks will make you your drink in your own container, drink shops will often sell you reusable containers! Check on amazon for a reusable container or just bring a reusable container and a reusable straw. Even at bubble tea stores, I have never been refused for bringing my own container. The market is flooded with plastic containers, but you can find ways to side step many of them.
 </p>
 
 
@@ -168,7 +94,7 @@ But there is always the option of simply avoiding the disposable bag. You can pa
 
 <p>
 
-Things such as plastic wrap and straws have reusable equivalents. Keep a set of portable utensils in your car or backpack to avoid disposable silverware. You know which single use plastics you use the most and you can sidestep them or replacing them. It might be easier to just ignore the consequences of plastic waste then to act on the truth, but plastic waste doesn't evaporate. If you are not careful, your personal legacy a hundred years from now may be thousands of pieces of plastic polluting the earth.
+Things such as plastic wrap and straws have reusable equivalents, and there is a plethora of options for getting things such as easily portable sets of utensils which you can keep in your car or backpack. But in the end, you are the one who can target what single use plastics you end up using the most, and either sidestepping them or replacing them. It might be easier to just ignore the consequences, but plastic waste doesn’t evaporate. If you are not careful, your personal legacy a hundred years from now may be thousands of pieces of plastic polluting the earth.
 </p>
 
 
@@ -201,7 +127,7 @@ Things such as plastic wrap and straws have reusable equivalents. Keep a set of 
 
 <h1> Energy Conservation </h1>
 
-<h3>Why should we conserve energy? In our world, producing energy and converting into different forms (such as growing food and livestock) creates pollution, greenhouse gasses, and often toxic chemicals at every step of the way. For example, one pound of beef requires 2,464.56 gallons of water to produce.<sup>9</sup> That water was purified and pumped by machines that ran on oil and gas and polluted the air. Additionally, beef production releases methane (an extremely potent greenhouse gas) and requires huge amounts of chemicals to grow the feed for the animals. <br> Unfortunately, even if you use green energy to power your home or use an electric vehicle, our consumer driven world is powered by dirty energy that pollutes the earth and harms the living things on it, including us. We can deal with this by reducing our energy usage to minimize our negative impact. Keep in mind that conserving water is directly related to conserving energy - a huge amount of energy is used to make water usable. Overall, here are some actions you can take to reduce the amount of water and energy you use.</h3>
+<h3>Why should we conserve energy? In our world, producing energy and converting into different forms (such as growing food and livestock) creates pollution, greenhouse gasses, and often toxic chemicals at every step of the way. For example, one pound of beef requires 2,464.56 gallons of water to produce.<sup>9</sup> That water was purified and pumped by machines that ran on oil and gas and polluted the air. Additionally, beef production releases methane (an extremely potent greenhouse gas) and requires huge amounts of chemicals to grow the feed for the animals. Unfortunately, even if you use green energy to power your home or use an electric vehicle, our consumer driven world is powered by dirty energy that pollutes the earth and harms the living things on it, including us. We can deal with this by reducing our energy usage to minimize our negative impact. Keep in mind that conserving water is directly related to conserving energy - a huge amount of energy is used to make water usable. Overall, here are some actions you can take to reduce the amount of water and energy you use.</h3>
 
 <h2>Transportation</h2>
 
@@ -212,7 +138,7 @@ Things such as plastic wrap and straws have reusable equivalents. Keep a set of 
 <a name="carpool"></a>
 <h3>Car pool</h3>
 
-<p>Car pool to enjoy more social time, less time behind the wheel, faster HOV lanes, and a huge cut in your personal energy use. Pollution from cars is also a serious problem, Every year, 4.6 million people die from air pollution<sup>10</sup> and most of these deaths are linked directly to pollutants from cars.
+<p>Car pool to enjoy more social time, less time behind the wheel, faster HOV lanes, and a huge cut in your personal energy use. Pollution from cars is also a serious problem, Every year, 4.6 million people die from air pollution<sup>10</sup> and most of these deaths are linked directly to polutants from cars.
 </p>
 
 
@@ -232,7 +158,7 @@ Things such as plastic wrap and straws have reusable equivalents. Keep a set of 
 <a name="bikingwalking"></a>
 <h3>Biking and walking </h3>
 
-<p>What more is there to say? The average American spends 5% of their time outside,<sup>12</sup> and many don’t venture outside at all. Enjoy some exercise, fresh air, and say goodbye to your personal four wheeled pollutant machine. Choose to bike or walk to somewhere you would otherwise drive to.
+<p>What more is there to say? The average american spends 5% of their time outside,<sup>12</sup> and many don’t venture outside at all. Enjoy some exercise, fresh air, and say goodbye to your personal four wheeled pollutant machine. Choose to bike or walk to somewhere you would otherwise drive to.
 <p>
 
 
@@ -242,15 +168,15 @@ Things such as plastic wrap and straws have reusable equivalents. Keep a set of 
 <h3>Eat leftovers
 </h3>
 
-<p>Imagine a huge field of crops  -> tomatoes, wheat, corn or something like that. Then separate 30 - 40% of that field and dump it directly into a landfill, and you have just envisioned what happens every day in America. We waste 30-40% of our food, and half of that waste happens at home. Why is so much just thrown away? Most of the tossing happens for purely cosmetic reasons - driven by our demand for designer food. We buy more than we need and we don’t eat what we buy. Take actions to reduce your food waste and you will hugely reduce your impact.
+<p>Imagine a huge field of crops  -> tomatoes, wheat, corn or something like that. Then separate 30 - 40% of that field and dump it directly into a landfill, and you have just envisioned what happens every day in America. We waste 30-40% of our food, and half of that waste happens at home. Why is so much just thrown away? Most of the tossing that happens before you get your hands on the food is for purely cosmetic reasons - driven by our demand for designer food. But half of that waste happens in your home. We buy more than we need and we don’t bother to eat what we buy. Take actions to reduce your food waste and you will hugely reduce your impact.
 </p>
 
 
 <a name="water"></a>
-<h3>Conserve water by taking a shower instead of a bath </h3>
+<h3>conserve water by taking a shower instead of a bath </h3>
 
 <p>
-   I am sure you have heard this one - with a high efficiency shower head, even a longer shower (though less than 18 minutes) is more efficient than filling the bathtub.<sup>13</sup> The shorter the shower, the bigger the savings.
+   I am sure you have heard this one - with a high efficiency shower head even a longer shower (though less than 18 minutes) is more efficient than filling the bathtub.<sup>13</sup> The shorter the shower, the bigger the savings.
 
 </p>
 
@@ -284,7 +210,7 @@ This article sums up the issue rather nicely “With 75% of all agricultural lan
 <h3> Eat local produce</h3>
 
 
-   <p> Your food racks up miles. In one study, an apple that ended up in a grocery store travelled 1,555 miles, whereas an apple that ended up in the farmers market traveled 77 miles. Even disregarding the dubious freshness of food that has traveled that far, consider the environmental impact of shipping every bite you eat from 1,555 miles away. As these numbers go to show, choosing to buy from a farmers market instead of a conventional store greatly reduces the distance your food has traveled. <p>
+   <p> Your food racks up more miles than you do. In one study, an apple that ended up a grocery store travelled 1,555 miles, whereas an apple that ended up in the farmers market traveled 77 miles. Even disregarding the dubious freshness of food that has traveled that far, consider the environmental impact of shipping every bite you eat from 1,555 miles away. As these numbers go to show, choosing to buy from a farmers market instead of a conventional store greatly reduces the distance your food has traveled. <p>
 
 
 
@@ -330,6 +256,9 @@ This article sums up the issue rather nicely “With 75% of all agricultural lan
 
 
 </div>
+    </div>
+
+
     </div>
 </body>
 </html>
