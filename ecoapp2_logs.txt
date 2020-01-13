@@ -4372,3 +4372,4 @@ logging action...
 [2020-01-13 09:24:09 -0800] [6016] [DEBUG] GET /static/info.html
 [2020-01-13 09:24:10 -0800] [6016] [DEBUG] GET /static/info_style.css
 [2020-01-13 09:24:10 -0800] [6016] [DEBUG] GET /favicon.ico
+[2020-01-13 10:00:54 -0800] [6016] [DEBUG] Invalid request from ip=163.172.111.59: Invalid HTTP request line: '\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie: mstshash=hello'
