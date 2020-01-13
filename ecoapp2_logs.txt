@@ -2496,3 +2496,1107 @@ id:
 Ep value fort this user:    
 [(0,)]
 {'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '6'}
+[2020-01-12 15:30:40 -0800] [29792] [DEBUG] GET /
+[2020-01-12 15:30:40 -0800] [29792] [DEBUG] GET /static/home.html
+[2020-01-12 15:30:40 -0800] [29792] [DEBUG] GET /static/homeStyle2.css
+[2020-01-12 15:30:40 -0800] [29792] [DEBUG] GET /favicon.ico
+[2020-01-12 15:30:49 -0800] [29792] [DEBUG] POST /post_login_data
+[(12345,), (2019,), (555,), (0,), (559,), (2020,), (7145,), (5397,), (7934,), (1965,), (2571,), (3159,), (8128,), (6298,), (6266,), (7796,), (8228,), (1039,), (2830,), (2840,), (1093,)]
+[('katnis',), ('JellyDonuts',), ('vader',), ('meep',), ('grettle',), ('200',), ('201',), ('202',), ('203',), ('204',), ('205',), ('206',), ('207',), ('208',), ('209',), ('210',), ('211',), ('216',), ('217',), ('218',), ('221',)]
+no match
+no match
+no match
+no match
+no match
+we have a match
+User logged in
+[(12345,), (2019,), (555,), (0,), (559,), (2020,), (7145,), (5397,), (7934,), (1965,), (2571,), (3159,), (8128,), (6298,), (6266,), (7796,), (8228,), (1039,), (2830,), (2840,), (1093,)]
+id:
+[(6,)]
+[(1,), (2,), (3,), (4,), (5,), (6,), (7,), (8,), (9,), (10,), (11,), (12,), (13,), (14,), (15,), (16,), (17,), (18,), (19,), (20,), (21,)]
+{'status': 'true', 'message': 'congratulations! You are logged in', 'id': [(6,)], 'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)]}
+[2020-01-12 15:30:49 -0800] [29792] [DEBUG] GET /static/home.html
+[2020-01-12 15:30:50 -0800] [29792] [DEBUG] GET /static/homeStyle2.css
+[2020-01-12 15:30:50 -0800] [29792] [DEBUG] POST /get_user_info
+6
+[(1, 'katnis', 12345, 51, 90)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '6'}
+[2020-01-12 15:30:55 -0800] [29792] [DEBUG] GET /static/info.html
+[2020-01-12 15:30:55 -0800] [29792] [DEBUG] GET /static/info_style.css
+[2020-01-12 15:30:59 -0800] [29792] [DEBUG] POST /get_user_info
+6
+[(1, 'katnis', 12345, 51, 90)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '6'}
+[2020-01-12 15:31:01 -0800] [29792] [DEBUG] POST /get_user_info
+6
+[(1, 'katnis', 12345, 51, 90)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '6'}
+[2020-01-12 15:31:01 -0800] [29792] [DEBUG] POST /return_action_message
+action id is 7
+[2020-01-12 15:36:57 -0800] [29792] [DEBUG] worker: SIGWINCH ignored.
+[2020-01-12 15:36:57 -0800] [29788] [INFO] Handling signal: winch
+[2020-01-12 15:36:57 -0800] [29788] [DEBUG] SIGWINCH ignored. Not daemonized
+[2020-01-12 15:37:14 -0800] [29792] [INFO] Worker exiting (pid: 29792)
+[2020-01-12 15:37:14 -0800] [29788] [INFO] Handling signal: term
+[2020-01-12 15:37:14 -0800] [29788] [INFO] Shutting down: Master
+[2020-01-12 15:38:09 -0800] [30526] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f53aad98510>
+  on_reload: <function OnReload.on_reload at 0x7f53aad98620>
+  when_ready: <function WhenReady.when_ready at 0x7f53aad98730>
+  pre_fork: <function Prefork.pre_fork at 0x7f53aad98840>
+  post_fork: <function Postfork.post_fork at 0x7f53aad98950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f53aad98a60>
+  worker_int: <function WorkerInt.worker_int at 0x7f53aad98b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f53aad98c80>
+  pre_exec: <function PreExec.pre_exec at 0x7f53aad98d90>
+  pre_request: <function PreRequest.pre_request at 0x7f53aad98ea0>
+  post_request: <function PostRequest.post_request at 0x7f53aad98f28>
+  child_exit: <function ChildExit.child_exit at 0x7f53aadae0d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f53aadae1e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f53aadae2f0>
+  on_exit: <function OnExit.on_exit at 0x7f53aadae400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 15:38:09 -0800] [30526] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 15:38:09 -0800] [30526] [DEBUG] Arbiter booted
+[2020-01-12 15:38:09 -0800] [30526] [INFO] Listening at: http://0.0.0.0:4000 (30526)
+[2020-01-12 15:38:09 -0800] [30526] [INFO] Using worker: sync
+[2020-01-12 15:38:09 -0800] [30530] [INFO] Booting worker with pid: 30530
+[2020-01-12 15:38:09 -0800] [30526] [DEBUG] 1 workers
+[(0, 6), (1, 4), (2, 2), (3, 2), (4, 5), (5, 4), (6, 10), (7, 3), (8, 5), (9, 2), (10, 1), (11, 6), (12, 1), (13, 1), (14, 8), (15, 1), (16, 1), (17, 6), (18, 8), (19, 6), (20, 4), (21, 6), (22, 4), (23, 6), (24, 10), (25, 1), (26, 7), (27, 1), (28, 5), (29, 3), (30, 7), (31, 8), (32, 5), (33, 7), (34, 2), (35, 2), (36, 3), (37, 1), (38, 4), (39, 8), (40, 10), (41, 5), (42, 2), (43, 1), (44, 10)]
+[(0, 6), (1, 4), (2, 2), (3, 2), (4, 5), (5, 4), (6, 10), (7, 3), (8, 5), (9, 2), (10, 1), (11, 6), (12, 1), (13, 1), (14, 8), (15, 1), (16, 1), (17, 6), (18, 8), (19, 6), (20, 4), (21, 6), (22, 4), (23, 6), (24, 10), (25, 1), (26, 7), (27, 1), (28, 5), (29, 3), (30, 7), (31, 8), (32, 5), (33, 7), (34, 2), (35, 2), (36, 3), (37, 1), (38, 4), (39, 8), (40, 10), (41, 5), (42, 2), (43, 1), (44, 10)]
+time header: 
+ 
+ 
+ 
+ 
+seconds since epoch
+1578872289.4
+days since epocj
+18273.98483101852
+rounded start date
+18273
+days since start
+0.9848310185188893
+[(1, '200', 2020, 0, 0), (2, '201', 7145, 0, 0), (3, '202', 5397, 0, 0), (4, '203', 7934, 0, 0), (5, '204', 1965, 0, 0), (6, '205', 2571, 0, 0), (7, '206', 3159, 0, 0), (8, '207', 8128, 0, 0), (9, '208', 6298, 0, 0), (10, '209', 6266, 0, 0), (11, '210', 7796, 0, 0), (12, '211', 8228, 0, 0), (13, '216', 1039, 0, 0), (14, '217', 2830, 0, 0), (15, '218', 2840, 0, 0), (16, '221', 1093, 0, 0)]
+[2020-01-12 15:38:24 -0800] [30530] [DEBUG] GET /
+[2020-01-12 15:38:24 -0800] [30530] [DEBUG] GET /static/home.html
+[2020-01-12 15:38:24 -0800] [30530] [DEBUG] POST /get_user_info
+6
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('205',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '6'}
+[2020-01-12 15:38:26 -0800] [30530] [DEBUG] GET /static/home.html
+[2020-01-12 15:38:26 -0800] [30530] [DEBUG] GET /static/homeStyle2.css
+[2020-01-12 15:38:43 -0800] [30530] [DEBUG] POST /post_login_data
+[(2020,), (7145,), (5397,), (7934,), (1965,), (2571,), (3159,), (8128,), (6298,), (6266,), (7796,), (8228,), (1039,), (2830,), (2840,), (1093,)]
+[('200',), ('201',), ('202',), ('203',), ('204',), ('205',), ('206',), ('207',), ('208',), ('209',), ('210',), ('211',), ('216',), ('217',), ('218',), ('221',)]
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+[2020-01-12 15:38:52 -0800] [30530] [DEBUG] POST /post_login_data
+[(2020,), (7145,), (5397,), (7934,), (1965,), (2571,), (3159,), (8128,), (6298,), (6266,), (7796,), (8228,), (1039,), (2830,), (2840,), (1093,)]
+[('200',), ('201',), ('202',), ('203',), ('204',), ('205',), ('206',), ('207',), ('208',), ('209',), ('210',), ('211',), ('216',), ('217',), ('218',), ('221',)]
+we have a match
+User logged in
+[(2020,), (7145,), (5397,), (7934,), (1965,), (2571,), (3159,), (8128,), (6298,), (6266,), (7796,), (8228,), (1039,), (2830,), (2840,), (1093,)]
+id:
+[(1,)]
+[(1,), (2,), (3,), (4,), (5,), (6,), (7,), (8,), (9,), (10,), (11,), (12,), (13,), (14,), (15,), (16,)]
+{'status': 'true', 'message': 'congratulations! You are logged in', 'id': [(1,)], 'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)]}
+[2020-01-12 15:38:52 -0800] [30530] [DEBUG] GET /static/home.html
+[2020-01-12 15:38:52 -0800] [30530] [DEBUG] GET /static/homeStyle2.css
+[2020-01-12 15:38:52 -0800] [30530] [DEBUG] POST /get_user_info
+1
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '1'}
+[2020-01-12 16:08:37 -0800] [22591] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fef4066b510>
+  on_reload: <function OnReload.on_reload at 0x7fef4066b620>
+  when_ready: <function WhenReady.when_ready at 0x7fef4066b730>
+  pre_fork: <function Prefork.pre_fork at 0x7fef4066b840>
+  post_fork: <function Postfork.post_fork at 0x7fef4066b950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fef4066ba60>
+  worker_int: <function WorkerInt.worker_int at 0x7fef4066bb70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fef4066bc80>
+  pre_exec: <function PreExec.pre_exec at 0x7fef4066bd90>
+  pre_request: <function PreRequest.pre_request at 0x7fef4066bea0>
+  post_request: <function PostRequest.post_request at 0x7fef4066bf28>
+  child_exit: <function ChildExit.child_exit at 0x7fef406830d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fef406831e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fef406832f0>
+  on_exit: <function OnExit.on_exit at 0x7fef40683400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 16:08:37 -0800] [22591] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 16:08:37 -0800] [22591] [DEBUG] Arbiter booted
+[2020-01-12 16:08:37 -0800] [22591] [INFO] Listening at: http://0.0.0.0:4000 (22591)
+[2020-01-12 16:08:37 -0800] [22591] [INFO] Using worker: sync
+[2020-01-12 16:08:37 -0800] [24535] [INFO] Booting worker with pid: 24535
+[2020-01-12 16:08:37 -0800] [22591] [DEBUG] 1 workers
+[(0, 8), (1, 1), (2, 3), (3, 7), (4, 4), (5, 7), (6, 4), (7, 3), (8, 3), (9, 9), (10, 1), (11, 4), (12, 9), (13, 3), (14, 6), (15, 8), (16, 6), (17, 10), (18, 10), (19, 5), (20, 8), (21, 2), (22, 9), (23, 7), (24, 9), (25, 8), (26, 2), (27, 6), (28, 8), (29, 9), (30, 10), (31, 5), (32, 10), (33, 2), (34, 10), (35, 6), (36, 7), (37, 2), (38, 8), (39, 5), (40, 1), (41, 3), (42, 6), (43, 8), (44, 6)]
+[(0, 8), (1, 1), (2, 3), (3, 7), (4, 4), (5, 7), (6, 4), (7, 3), (8, 3), (9, 9), (10, 1), (11, 4), (12, 9), (13, 3), (14, 6), (15, 8), (16, 6), (17, 10), (18, 10), (19, 5), (20, 8), (21, 2), (22, 9), (23, 7), (24, 9), (25, 8), (26, 2), (27, 6), (28, 8), (29, 9), (30, 10), (31, 5), (32, 10), (33, 2), (34, 10), (35, 6), (36, 7), (37, 2), (38, 8), (39, 5), (40, 1), (41, 3), (42, 6), (43, 8), (44, 6)]
+time header: 
+ 
+ 
+ 
+ 
+seconds since epoch
+1578874117.5
+days since epocj
+18274.005989583333
+rounded start date
+18273
+days since start
+1.0059895833328483
+[(1, '200', 2020, 0, 0), (2, '201', 7145, 0, 0), (3, '202', 5397, 0, 0), (4, '203', 7934, 0, 0), (5, '204', 1965, 0, 0), (6, '205', 2571, 0, 0), (7, '206', 3159, 0, 0), (8, '207', 8128, 0, 0), (9, '208', 6298, 0, 0), (10, '209', 6266, 0, 0), (11, '210', 7796, 0, 0), (12, '211', 8228, 0, 0), (13, '216', 1039, 0, 0), (14, '217', 2830, 0, 0), (15, '218', 2840, 0, 0), (16, '221', 1093, 0, 0)]
+[2020-01-12 16:10:53 -0800] [24535] [DEBUG] GET /
+[2020-01-12 16:10:53 -0800] [24535] [DEBUG] GET /static/home.html
+[2020-01-12 16:10:54 -0800] [24535] [DEBUG] POST /get_user_info
+1
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '1'}
+[2020-01-12 16:10:59 -0800] [24535] [DEBUG] GET /static/home.html
+[2020-01-12 16:11:00 -0800] [24535] [DEBUG] GET /static/homeStyle2.css
+[2020-01-12 16:11:11 -0800] [24535] [DEBUG] POST /post_login_data
+[(2020,), (7145,), (5397,), (7934,), (1965,), (2571,), (3159,), (8128,), (6298,), (6266,), (7796,), (8228,), (1039,), (2830,), (2840,), (1093,)]
+[('200',), ('201',), ('202',), ('203',), ('204',), ('205',), ('206',), ('207',), ('208',), ('209',), ('210',), ('211',), ('216',), ('217',), ('218',), ('221',)]
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+no match
+[2020-01-12 16:11:22 -0800] [24535] [DEBUG] POST /post_login_data
+[(2020,), (7145,), (5397,), (7934,), (1965,), (2571,), (3159,), (8128,), (6298,), (6266,), (7796,), (8228,), (1039,), (2830,), (2840,), (1093,)]
+[('200',), ('201',), ('202',), ('203',), ('204',), ('205',), ('206',), ('207',), ('208',), ('209',), ('210',), ('211',), ('216',), ('217',), ('218',), ('221',)]
+we have a match
+User logged in
+[(2020,), (7145,), (5397,), (7934,), (1965,), (2571,), (3159,), (8128,), (6298,), (6266,), (7796,), (8228,), (1039,), (2830,), (2840,), (1093,)]
+id:
+[(1,)]
+[(1,), (2,), (3,), (4,), (5,), (6,), (7,), (8,), (9,), (10,), (11,), (12,), (13,), (14,), (15,), (16,)]
+{'status': 'true', 'message': 'congratulations! You are logged in', 'id': [(1,)], 'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)]}
+[2020-01-12 16:11:22 -0800] [24535] [DEBUG] GET /static/home.html
+[2020-01-12 16:11:22 -0800] [24535] [DEBUG] GET /static/homeStyle2.css
+[2020-01-12 16:11:22 -0800] [24535] [DEBUG] POST /get_user_info
+1
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '1'}
+[2020-01-12 16:11:26 -0800] [24535] [DEBUG] POST /return_action_message
+action id is 1
+[2020-01-12 16:11:26 -0800] [24535] [DEBUG] POST /get_user_info
+1
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '1'}
+[2020-01-12 16:11:37 -0800] [24535] [DEBUG] POST /register_action
+action id is 1
+logging action...
+1578874297.2
+1578874117.5
+179.7
+[(1, 1, 179.7)]
+[2020-01-12 16:11:48 -0800] [24535] [DEBUG] POST /get_user_info
+1
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '1'}
+[2020-01-12 16:11:48 -0800] [24535] [DEBUG] POST /return_action_message
+action id is 3
+[2020-01-12 16:11:55 -0800] [24535] [DEBUG] POST /return_action_message
+action id is 3
+[2020-01-12 16:11:55 -0800] [24535] [DEBUG] POST /get_user_info
+1
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '1'}
+[2020-01-12 16:11:55 -0800] [24535] [DEBUG] POST /return_action_message
+action id is 3
+[2020-01-12 16:11:55 -0800] [24535] [DEBUG] POST /get_user_info
+1
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '1'}
+[2020-01-12 16:14:59 -0800] [24535] [DEBUG] GET /static/home.html
+[2020-01-12 16:14:59 -0800] [24535] [DEBUG] POST /get_user_info
+1
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '1'}
+[2020-01-12 16:23:29 -0800] [22591] [INFO] Handling signal: int
+[2020-01-12 16:23:30 -0800] [24535] [INFO] Worker exiting (pid: 24535)
+[2020-01-12 16:23:30 -0800] [22591] [INFO] Shutting down: Master
+[2020-01-12 16:23:30 -0800] [29500] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f4c3d6be510>
+  on_reload: <function OnReload.on_reload at 0x7f4c3d6be620>
+  when_ready: <function WhenReady.when_ready at 0x7f4c3d6be730>
+  pre_fork: <function Prefork.pre_fork at 0x7f4c3d6be840>
+  post_fork: <function Postfork.post_fork at 0x7f4c3d6be950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f4c3d6bea60>
+  worker_int: <function WorkerInt.worker_int at 0x7f4c3d6beb70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f4c3d6bec80>
+  pre_exec: <function PreExec.pre_exec at 0x7f4c3d6bed90>
+  pre_request: <function PreRequest.pre_request at 0x7f4c3d6beea0>
+  post_request: <function PostRequest.post_request at 0x7f4c3d6bef28>
+  child_exit: <function ChildExit.child_exit at 0x7f4c3d6d60d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f4c3d6d61e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f4c3d6d62f0>
+  on_exit: <function OnExit.on_exit at 0x7f4c3d6d6400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 16:23:30 -0800] [29500] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 16:23:30 -0800] [29500] [DEBUG] Arbiter booted
+[2020-01-12 16:23:30 -0800] [29500] [INFO] Listening at: http://0.0.0.0:4000 (29500)
+[2020-01-12 16:23:30 -0800] [29500] [INFO] Using worker: sync
+[2020-01-12 16:23:30 -0800] [30826] [INFO] Booting worker with pid: 30826
+[(0, 8), (1, 1), (2, 3), (3, 7), (4, 4), (5, 7), (6, 4), (7, 3), (8, 3), (9, 9), (10, 1), (11, 4), (12, 9), (13, 3), (14, 6), (15, 8), (16, 6), (17, 10), (18, 10), (19, 5), (20, 8), (21, 2), (22, 9), (23, 7), (24, 9), (25, 8), (26, 2), (27, 6), (28, 8), (29, 9), (30, 10), (31, 5), (32, 10), (33, 2), (34, 10), (35, 6), (36, 7), (37, 2), (38, 8), (39, 5), (40, 1), (41, 3), (42, 6), (43, 8), (44, 6)]
+[(0, 8), (1, 1), (2, 3), (3, 7), (4, 4), (5, 7), (6, 4), (7, 3), (8, 3), (9, 9), (10, 1), (11, 4), (12, 9), (13, 3), (14, 6), (15, 8), (16, 6), (17, 10), (18, 10), (19, 5), (20, 8), (21, 2), (22, 9), (23, 7), (24, 9), (25, 8), (26, 2), (27, 6), (28, 8), (29, 9), (30, 10), (31, 5), (32, 10), (33, 2), (34, 10), (35, 6), (36, 7), (37, 2), (38, 8), (39, 5), (40, 1), (41, 3), (42, 6), (43, 8), (44, 6)]
+time header: 
+ 
+ 
+ 
+ 
+seconds since epoch
+1578875010.4
+days since epocj
+18274.016324074077
+rounded start date
+18273
+days since start
+1.0163240740766923
+[(1, '200', 2020, 0, 0), (2, '201', 7145, 0, 0), (3, '202', 5397, 0, 0), (4, '203', 7934, 0, 0), (5, '204', 1965, 0, 0), (6, '205', 2571, 0, 0), (7, '206', 3159, 0, 0), (8, '207', 8128, 0, 0), (9, '208', 6298, 0, 0), (10, '209', 6266, 0, 0), (11, '210', 7796, 0, 0), (12, '211', 8228, 0, 0), (13, '216', 1039, 0, 0), (14, '217', 2830, 0, 0), (15, '218', 2840, 0, 0), (16, '221', 1093, 0, 0)]
+[2020-01-12 16:23:30 -0800] [29500] [DEBUG] 1 workers
+[2020-01-12 16:25:39 -0800] [30826] [INFO] Worker exiting (pid: 30826)
+[2020-01-12 16:25:39 -0800] [29500] [CRITICAL] WORKER TIMEOUT (pid:30826)
+Exception ignored in: <module 'threading' from '/usr/lib64/python3.7/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib64/python3.7/threading.py", line 1255, in _shutdown
+[2020-01-12 16:25:39 -0800] [29500] [INFO] Handling signal: term
+    def _shutdown():
+  File "/usr/local/lib/python3.7/site-packages/gunicorn/workers/base.py", line 199, in handle_abort
+    sys.exit(1)
+SystemExit: 1
+[2020-01-12 16:25:39 -0800] [29500] [INFO] Shutting down: Master
+[2020-01-12 16:26:44 -0800] [25253] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7ff0ab21b510>
+  on_reload: <function OnReload.on_reload at 0x7ff0ab21b620>
+  when_ready: <function WhenReady.when_ready at 0x7ff0ab21b730>
+  pre_fork: <function Prefork.pre_fork at 0x7ff0ab21b840>
+  post_fork: <function Postfork.post_fork at 0x7ff0ab21b950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7ff0ab21ba60>
+  worker_int: <function WorkerInt.worker_int at 0x7ff0ab21bb70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7ff0ab21bc80>
+  pre_exec: <function PreExec.pre_exec at 0x7ff0ab21bd90>
+  pre_request: <function PreRequest.pre_request at 0x7ff0ab21bea0>
+  post_request: <function PostRequest.post_request at 0x7ff0ab21bf28>
+  child_exit: <function ChildExit.child_exit at 0x7ff0ab2330d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7ff0ab2331e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7ff0ab2332f0>
+  on_exit: <function OnExit.on_exit at 0x7ff0ab233400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 16:26:44 -0800] [25253] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 16:26:44 -0800] [25253] [DEBUG] Arbiter booted
+[2020-01-12 16:26:44 -0800] [25253] [INFO] Listening at: http://0.0.0.0:4000 (25253)
+[2020-01-12 16:26:44 -0800] [25253] [INFO] Using worker: sync
+[2020-01-12 16:26:44 -0800] [26510] [INFO] Booting worker with pid: 26510
+[2020-01-12 16:26:44 -0800] [25253] [DEBUG] 1 workers
+[(0, 6), (1, 5), (2, 6), (3, 6), (4, 2), (5, 3), (6, 9), (7, 9), (8, 8), (9, 1), (10, 3), (11, 2), (12, 9), (13, 4), (14, 6), (15, 8), (16, 1), (17, 4), (18, 5), (19, 10), (20, 7), (21, 8), (22, 6), (23, 5), (24, 6), (25, 10), (26, 6), (27, 8), (28, 5), (29, 9), (30, 2), (31, 4), (32, 9), (33, 4), (34, 4), (35, 4), (36, 9), (37, 6), (38, 5), (39, 7), (40, 5), (41, 3), (42, 7), (43, 2), (44, 7)]
+[(0, 6), (1, 5), (2, 6), (3, 6), (4, 2), (5, 3), (6, 9), (7, 9), (8, 8), (9, 1), (10, 3), (11, 2), (12, 9), (13, 4), (14, 6), (15, 8), (16, 1), (17, 4), (18, 5), (19, 10), (20, 7), (21, 8), (22, 6), (23, 5), (24, 6), (25, 10), (26, 6), (27, 8), (28, 5), (29, 9), (30, 2), (31, 4), (32, 9), (33, 4), (34, 4), (35, 4), (36, 9), (37, 6), (38, 5), (39, 7), (40, 5), (41, 3), (42, 7), (43, 2), (44, 7)]
+time header: 
+ 
+ 
+ 
+ 
+seconds since epoch
+1578875204.7
+days since epocj
+18274.018572916666
+rounded start date
+18273
+days since start
+1.0185729166660167
+[(1, '200', 2020, 0, 0), (2, '201', 7145, 0, 0), (3, '202', 5397, 0, 0), (4, '203', 7934, 0, 0), (5, '204', 1965, 0, 0), (6, '205', 2571, 0, 0), (7, '206', 3159, 0, 0), (8, '207', 8128, 0, 0), (9, '208', 6298, 0, 0), (10, '209', 6266, 0, 0), (11, '210', 7796, 0, 0), (12, '211', 8228, 0, 0), (13, '216', 1039, 0, 0), (14, '217', 2830, 0, 0), (15, '218', 2840, 0, 0), (16, '221', 1093, 0, 0)]
+[2020-01-12 16:26:50 -0800] [26510] [DEBUG] GET /static/home.html
+[2020-01-12 16:26:50 -0800] [26510] [DEBUG] POST /get_user_info
+1
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '1'}
+[2020-01-12 16:34:58 -0800] [26510] [INFO] Worker exiting (pid: 26510)
+[2020-01-12 16:34:58 -0800] [25253] [INFO] Handling signal: term
+[2020-01-12 16:34:58 -0800] [25253] [INFO] Shutting down: Master
+[2020-01-12 16:35:09 -0800] [9863] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f86d3e80510>
+  on_reload: <function OnReload.on_reload at 0x7f86d3e80620>
+  when_ready: <function WhenReady.when_ready at 0x7f86d3e80730>
+  pre_fork: <function Prefork.pre_fork at 0x7f86d3e80840>
+  post_fork: <function Postfork.post_fork at 0x7f86d3e80950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f86d3e80a60>
+  worker_int: <function WorkerInt.worker_int at 0x7f86d3e80b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f86d3e80c80>
+  pre_exec: <function PreExec.pre_exec at 0x7f86d3e80d90>
+  pre_request: <function PreRequest.pre_request at 0x7f86d3e80ea0>
+  post_request: <function PostRequest.post_request at 0x7f86d3e80f28>
+  child_exit: <function ChildExit.child_exit at 0x7f86d3e980d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f86d3e981e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f86d3e982f0>
+  on_exit: <function OnExit.on_exit at 0x7f86d3e98400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 16:35:09 -0800] [9863] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 16:35:09 -0800] [9863] [DEBUG] Arbiter booted
+[2020-01-12 16:35:09 -0800] [9863] [INFO] Listening at: http://0.0.0.0:4000 (9863)
+[2020-01-12 16:35:09 -0800] [9863] [INFO] Using worker: sync
+[2020-01-12 16:35:09 -0800] [11157] [INFO] Booting worker with pid: 11157
+[(0, 6), (1, 5), (2, 6), (3, 6), (4, 2), (5, 3), (6, 9), (7, 9), (8, 8), (9, 1), (10, 3), (11, 2), (12, 9), (13, 4), (14, 6), (15, 8), (16, 1), (17, 4), (18, 5), (19, 10), (20, 7), (21, 8), (22, 6), (23, 5), (24, 6), (25, 10), (26, 6), (27, 8), (28, 5), (29, 9), (30, 2), (31, 4), (32, 9), (33, 4), (34, 4), (35, 4), (36, 9), (37, 6), (38, 5), (39, 7), (40, 5), (41, 3), (42, 7), (43, 2), (44, 7)]
+[(0, 6), (1, 5), (2, 6), (3, 6), (4, 2), (5, 3), (6, 9), (7, 9), (8, 8), (9, 1), (10, 3), (11, 2), (12, 9), (13, 4), (14, 6), (15, 8), (16, 1), (17, 4), (18, 5), (19, 10), (20, 7), (21, 8), (22, 6), (23, 5), (24, 6), (25, 10), (26, 6), (27, 8), (28, 5), (29, 9), (30, 2), (31, 4), (32, 9), (33, 4), (34, 4), (35, 4), (36, 9), (37, 6), (38, 5), (39, 7), (40, 5), (41, 3), (42, 7), (43, 2), (44, 7)]
+time header: 
+ 
+ 
+ 
+ 
+seconds since epoch
+1578875709.4
+days since epocj
+18274.024414351854
+rounded start date
+18273
+days since start
+1.0244143518539204
+[(1, '200', 2020, 0, 0), (2, '201', 7145, 0, 0), (3, '202', 5397, 0, 0), (4, '203', 7934, 0, 0), (5, '204', 1965, 0, 0), (6, '205', 2571, 0, 0), (7, '206', 3159, 0, 0), (8, '207', 8128, 0, 0), (9, '208', 6298, 0, 0), (10, '209', 6266, 0, 0), (11, '210', 7796, 0, 0), (12, '211', 8228, 0, 0), (13, '216', 1039, 0, 0), (14, '217', 2830, 0, 0), (15, '218', 2840, 0, 0), (16, '221', 1093, 0, 0)]
+[2020-01-12 16:35:09 -0800] [9863] [DEBUG] 1 workers
+[2020-01-12 16:35:25 -0800] [11157] [DEBUG] GET /
+[2020-01-12 16:35:26 -0800] [11157] [DEBUG] GET /static/home.html
+[2020-01-12 16:35:26 -0800] [11157] [DEBUG] POST /get_user_info
+1
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '1'}
+[2020-01-12 16:35:32 -0800] [11157] [DEBUG] GET /static/home.html
+[2020-01-12 16:35:32 -0800] [11157] [DEBUG] POST /get_user_info
+1
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '1'}
+[2020-01-12 16:35:34 -0800] [11157] [DEBUG] GET /static/home.html
+[2020-01-12 16:35:34 -0800] [11157] [DEBUG] POST /get_user_info
+1
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '1'}
+[2020-01-12 16:35:38 -0800] [11157] [DEBUG] GET /static/home.html
+[2020-01-12 16:35:38 -0800] [11157] [DEBUG] POST /get_user_info
+1
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '1'}
+[2020-01-12 16:37:08 -0800] [11157] [DEBUG] POST /get_user_info
+6
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('205',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '6'}
+[2020-01-12 16:37:08 -0800] [11157] [DEBUG] GET /favicon.ico
+[2020-01-12 16:37:58 -0800] [11157] [DEBUG] POST /return_action_message
+action id is 4
+[2020-01-12 16:37:58 -0800] [11157] [DEBUG] POST /get_user_info
+1
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '1'}
+[2020-01-12 16:37:59 -0800] [11157] [DEBUG] POST /register_action
+action id is 4
+logging action...
+1578875879.9
+1578875709.4
+170.5
+[(1, 4, 170.5)]
+[2020-01-12 16:38:02 -0800] [11157] [DEBUG] GET /static/home.html
+[2020-01-12 16:38:02 -0800] [11157] [DEBUG] GET /static/homeStyle2.css
+[2020-01-12 16:39:17 -0800] [11157] [INFO] Worker exiting (pid: 11157)
+[2020-01-12 16:39:17 -0800] [9863] [INFO] Handling signal: term
+[2020-01-12 16:39:17 -0800] [9863] [INFO] Shutting down: Master
+[2020-01-12 16:39:20 -0800] [15810] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f6ba83c5510>
+  on_reload: <function OnReload.on_reload at 0x7f6ba83c5620>
+  when_ready: <function WhenReady.when_ready at 0x7f6ba83c5730>
+  pre_fork: <function Prefork.pre_fork at 0x7f6ba83c5840>
+  post_fork: <function Postfork.post_fork at 0x7f6ba83c5950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f6ba83c5a60>
+  worker_int: <function WorkerInt.worker_int at 0x7f6ba83c5b70>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f6ba83c5c80>
+  pre_exec: <function PreExec.pre_exec at 0x7f6ba83c5d90>
+  pre_request: <function PreRequest.pre_request at 0x7f6ba83c5ea0>
+  post_request: <function PostRequest.post_request at 0x7f6ba83c5f28>
+  child_exit: <function ChildExit.child_exit at 0x7f6ba83dd0d0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f6ba83dd1e0>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f6ba83dd2f0>
+  on_exit: <function OnExit.on_exit at 0x7f6ba83dd400>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 16:39:20 -0800] [15810] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 16:39:20 -0800] [15810] [DEBUG] Arbiter booted
+[2020-01-12 16:39:20 -0800] [15810] [INFO] Listening at: http://0.0.0.0:4000 (15810)
+[2020-01-12 16:39:20 -0800] [15810] [INFO] Using worker: sync
+[2020-01-12 16:39:20 -0800] [17040] [INFO] Booting worker with pid: 17040
+[2020-01-12 16:39:20 -0800] [15810] [DEBUG] 1 workers
+[(0, 6), (1, 5), (2, 6), (3, 6), (4, 2), (5, 3), (6, 9), (7, 9), (8, 8), (9, 1), (10, 3), (11, 2), (12, 9), (13, 4), (14, 6), (15, 8), (16, 1), (17, 4), (18, 5), (19, 10), (20, 7), (21, 8), (22, 6), (23, 5), (24, 6), (25, 10), (26, 6), (27, 8), (28, 5), (29, 9), (30, 2), (31, 4), (32, 9), (33, 4), (34, 4), (35, 4), (36, 9), (37, 6), (38, 5), (39, 7), (40, 5), (41, 3), (42, 7), (43, 2), (44, 7)]
+[(0, 6), (1, 5), (2, 6), (3, 6), (4, 2), (5, 3), (6, 9), (7, 9), (8, 8), (9, 1), (10, 3), (11, 2), (12, 9), (13, 4), (14, 6), (15, 8), (16, 1), (17, 4), (18, 5), (19, 10), (20, 7), (21, 8), (22, 6), (23, 5), (24, 6), (25, 10), (26, 6), (27, 8), (28, 5), (29, 9), (30, 2), (31, 4), (32, 9), (33, 4), (34, 4), (35, 4), (36, 9), (37, 6), (38, 5), (39, 7), (40, 5), (41, 3), (42, 7), (43, 2), (44, 7)]
+time header: 
+ 
+ 
+ 
+ 
+seconds since epoch
+1578875960.9
+days since epocj
+18274.027325231484
+rounded start date
+18273
+days since start
+1.027325231483701
+[(1, '200', 2020, 0, 0), (2, '201', 7145, 0, 0), (3, '202', 5397, 0, 0), (4, '203', 7934, 0, 0), (5, '204', 1965, 0, 0), (6, '205', 2571, 0, 0), (7, '206', 3159, 0, 0), (8, '207', 8128, 0, 0), (9, '208', 6298, 0, 0), (10, '209', 6266, 0, 0), (11, '210', 7796, 0, 0), (12, '211', 8228, 0, 0), (13, '216', 1039, 0, 0), (14, '217', 2830, 0, 0), (15, '218', 2840, 0, 0), (16, '221', 1093, 0, 0)]
+[2020-01-12 16:39:23 -0800] [17040] [DEBUG] GET /static/home.html
+[2020-01-12 16:39:32 -0800] [17040] [DEBUG] POST /post_login_data
+[(2020,), (7145,), (5397,), (7934,), (1965,), (2571,), (3159,), (8128,), (6298,), (6266,), (7796,), (8228,), (1039,), (2830,), (2840,), (1093,)]
+[('200',), ('201',), ('202',), ('203',), ('204',), ('205',), ('206',), ('207',), ('208',), ('209',), ('210',), ('211',), ('216',), ('217',), ('218',), ('221',)]
+we have a match
+User logged in
+[(2020,), (7145,), (5397,), (7934,), (1965,), (2571,), (3159,), (8128,), (6298,), (6266,), (7796,), (8228,), (1039,), (2830,), (2840,), (1093,)]
+id:
+[(1,)]
+[(1,), (2,), (3,), (4,), (5,), (6,), (7,), (8,), (9,), (10,), (11,), (12,), (13,), (14,), (15,), (16,)]
+{'status': 'true', 'message': 'congratulations! You are logged in', 'id': [(1,)], 'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)]}
+[2020-01-12 16:39:33 -0800] [17040] [DEBUG] GET /static/home.html
+[2020-01-12 16:39:33 -0800] [17040] [DEBUG] GET /static/homeStyle2.css
+[2020-01-12 16:39:33 -0800] [17040] [DEBUG] POST /get_user_info
+1
+[(1, '200', 2020, 0, 0)]
+Ep value fort this user:    
+[(0,)]
+{'username': [('200',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '1'}
+[2020-01-12 16:39:48 -0800] [17040] [DEBUG] GET /static/info.html
+[2020-01-12 16:39:48 -0800] [17040] [DEBUG] GET /favicon.ico
+[2020-01-12 16:40:09 -0800] [18473] [INFO] Booting worker with pid: 18473
+[2020-01-12 17:48:48 -0800] [1018] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fdc41f3b488>
+  on_reload: <function OnReload.on_reload at 0x7fdc41f3b598>
+  when_ready: <function WhenReady.when_ready at 0x7fdc41f3b6a8>
+  pre_fork: <function Prefork.pre_fork at 0x7fdc41f3b7b8>
+  post_fork: <function Postfork.post_fork at 0x7fdc41f3b8c8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fdc41f3b9d8>
+  worker_int: <function WorkerInt.worker_int at 0x7fdc41f3bae8>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fdc41f3bbf8>
+  pre_exec: <function PreExec.pre_exec at 0x7fdc41f3bd08>
+  pre_request: <function PreRequest.pre_request at 0x7fdc41f3be18>
+  post_request: <function PostRequest.post_request at 0x7fdc41f3bea0>
+  child_exit: <function ChildExit.child_exit at 0x7fdc41f53048>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fdc41f53158>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fdc41f53268>
+  on_exit: <function OnExit.on_exit at 0x7fdc41f53378>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 17:48:48 -0800] [1018] [INFO] Starting gunicorn 20.0.0
+[2020-01-12 17:48:48 -0800] [1018] [DEBUG] Arbiter booted
+[2020-01-12 17:48:48 -0800] [1018] [INFO] Listening at: http://0.0.0.0:4000 (1018)
+[2020-01-12 17:48:48 -0800] [1018] [INFO] Using worker: sync
+[2020-01-12 17:48:48 -0800] [1107] [INFO] Booting worker with pid: 1107
+[2020-01-12 17:48:48 -0800] [1018] [DEBUG] 1 workers
+[2020-01-12 17:48:57 -0800] [1107] [DEBUG] GET /static/info.html
+[2020-01-12 17:49:09 -0800] [1107] [DEBUG] GET /static/info.html
+[2020-01-12 17:49:14 -0800] [1107] [DEBUG] POST /get_user_info
+[2020-01-12 17:49:14 -0800] [1107] [DEBUG] GET /static/home.html
+[2020-01-12 17:49:14 -0800] [1107] [DEBUG] GET /static/homeStyle2.css
+[2020-01-12 17:49:22 -0800] [1107] [DEBUG] POST /post_login_data
+[2020-01-12 17:53:31 -0800] [1018] [INFO] Handling signal: hup
+[2020-01-12 17:53:31 -0800] [1018] [INFO] Hang up: Master
+[2020-01-12 17:53:31 -0800] [1018] [DEBUG] Current configuration:
+  config: None
+  bind: ['0.0.0.0:4000']
+  backlog: 2048
+  workers: 1
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /home/mayabasu/EcoApp_2
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1002
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: ecoapp2_logs.txt
+  loglevel: debug
+  capture_output: True
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: app:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fdc41f3b488>
+  on_reload: <function OnReload.on_reload at 0x7fdc41f3b598>
+  when_ready: <function WhenReady.when_ready at 0x7fdc41f3b6a8>
+  pre_fork: <function Prefork.pre_fork at 0x7fdc41f3b7b8>
+  post_fork: <function Postfork.post_fork at 0x7fdc41f3b8c8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fdc41f3b9d8>
+  worker_int: <function WorkerInt.worker_int at 0x7fdc41f3bae8>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fdc41f3bbf8>
+  pre_exec: <function PreExec.pre_exec at 0x7fdc41f3bd08>
+  pre_request: <function PreRequest.pre_request at 0x7fdc41f3be18>
+  post_request: <function PostRequest.post_request at 0x7fdc41f3bea0>
+  child_exit: <function ChildExit.child_exit at 0x7fdc41f53048>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fdc41f53158>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fdc41f53268>
+  on_exit: <function OnExit.on_exit at 0x7fdc41f53378>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+[2020-01-12 17:53:31 -0800] [1018] [INFO] Handling signal: term
+[2020-01-12 17:53:31 -0800] [3124] [INFO] Booting worker with pid: 3124
+[2020-01-12 17:54:01 -0800] [1018] [INFO] Shutting down: Master
