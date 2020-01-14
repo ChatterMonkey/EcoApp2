@@ -5190,3 +5190,7 @@ Ep value fort this user:
 [(0,)]
 {'username': [('207',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '8'}
 [2020-01-14 11:35:18 -0800] [10653] [INFO] Booting worker with pid: 10653
+[2020-01-14 12:49:44 -0800] [10653] [DEBUG] GET /
+[2020-01-14 12:49:44 -0800] [10653] [DEBUG] GET /static/homeStyle2.css
+[2020-01-14 12:49:44 -0800] [10653] [DEBUG] GET /static/home.html
+[2020-01-14 12:49:44 -0800] [10653] [DEBUG] POST /get_user_info
