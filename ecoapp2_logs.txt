@@ -5233,3 +5233,11 @@ Ep value fort this user:
 [2020-01-14 23:52:49 -0800] [10653] [DEBUG] POST /get_user_info
 [2020-01-14 23:52:49 -0800] [10653] [DEBUG] POST /return_action_message
 [2020-01-14 23:52:50 -0800] [10653] [DEBUG] POST /register_action
+[2020-01-15 10:36:48 -0800] [10653] [DEBUG] GET /
+[2020-01-15 10:52:16 -0800] [10653] [DEBUG] Closing connection. 
+[2020-01-15 10:54:12 -0800] [10653] [DEBUG] GET /static/homeStyle2.css
+[2020-01-15 10:54:12 -0800] [10653] [DEBUG] GET /favicon.ico
+[2020-01-15 10:54:15 -0800] [10653] [DEBUG] GET /static/info.html
+[2020-01-15 10:54:15 -0800] [10653] [DEBUG] GET /static/info_style.css
+[2020-01-15 10:54:21 -0800] [10653] [DEBUG] Closing connection. 
+[2020-01-15 10:55:39 -0800] [10653] [DEBUG] GET /static/info.html
