@@ -5211,3 +5211,5 @@ Ep value fort this user:
 [2020-01-14 14:32:12 -0800] [10653] [DEBUG] Closing connection. 
 [2020-01-14 15:40:16 -0800] [10653] [DEBUG] GET /
 [2020-01-14 15:40:16 -0800] [10653] [DEBUG] GET /static/home.html
+[2020-01-14 19:24:24 -0800] [10653] [DEBUG] Closing connection. 
+[2020-01-14 19:24:24 -0800] [10653] [DEBUG] Invalid request from ip=90.182.144.74: Invalid HTTP request line: '\x03\x00\x00&!à\x00\x00\x00\x00\x00Cookie: mstshash='
