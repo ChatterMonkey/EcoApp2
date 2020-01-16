@@ -5511,3 +5511,6 @@ logging action...
 [2020-01-15 22:34:30 -0800] [16156] [DEBUG] GET /static/home.html
 [2020-01-15 22:34:31 -0800] [16156] [DEBUG] GET /static/home.html
 [2020-01-16 02:23:39 -0800] [16156] [DEBUG] Ignoring connection reset
+[2020-01-16 03:46:39 -0800] [16156] [DEBUG] Invalid request from ip=45.141.86.138: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-01-16 03:49:00 -0800] [16156] [DEBUG] Invalid request from ip=45.141.86.138: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-01-16 03:59:53 -0800] [16156] [DEBUG] Invalid request from ip=45.141.86.138: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
