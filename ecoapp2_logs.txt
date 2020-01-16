@@ -5510,3 +5510,4 @@ logging action...
 [2020-01-15 22:34:19 -0800] [16156] [DEBUG] GET /static/homeStyle2.css
 [2020-01-15 22:34:30 -0800] [16156] [DEBUG] GET /static/home.html
 [2020-01-15 22:34:31 -0800] [16156] [DEBUG] GET /static/home.html
+[2020-01-16 02:23:39 -0800] [16156] [DEBUG] Ignoring connection reset
