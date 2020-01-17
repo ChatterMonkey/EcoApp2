@@ -5548,3 +5548,4 @@ logging action...
 [2020-01-16 16:29:55 -0800] [16156] [DEBUG] POST /get_user_info
 [2020-01-16 16:29:55 -0800] [16156] [DEBUG] POST /return_action_message
 [2020-01-16 16:29:57 -0800] [16156] [DEBUG] POST /register_action
+[2020-01-16 18:02:32 -0800] [16156] [DEBUG] GET /
