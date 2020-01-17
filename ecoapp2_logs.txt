@@ -5687,3 +5687,4 @@ id:
 [2020-01-16 19:22:24 -0800] [16156] [DEBUG] POST /get_user_info
 [2020-01-16 19:22:32 -0800] [16156] [DEBUG] GET /static/home.html
 [2020-01-16 19:22:42 -0800] [16156] [DEBUG] Closing connection. 
+[2020-01-17 12:25:04 -0800] [16156] [DEBUG] Invalid request from ip=163.172.22.247: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
