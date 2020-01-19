@@ -5929,3 +5929,19 @@ days since start
 [2020-01-18 03:00:41 -0800] [24969] [DEBUG] Invalid request from ip=163.172.22.247: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2020-01-18 08:49:01 -0800] [24969] [DEBUG] Invalid request from ip=198.108.67.48: Invalid HTTP request line: ''
 [2020-01-18 13:22:40 -0800] [24969] [DEBUG] Invalid request from ip=185.156.177.221: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-01-18 15:15:20 -0800] [24969] [DEBUG] POST /return_action_message
+[2020-01-18 15:15:20 -0800] [24969] [DEBUG] POST /get_user_info
+[2020-01-18 15:15:22 -0800] [24969] [DEBUG] POST /register_action
+[2020-01-18 15:15:56 -0800] [24969] [DEBUG] POST /return_action_message
+[2020-01-18 15:15:56 -0800] [24969] [DEBUG] POST /get_user_info
+[2020-01-18 15:15:57 -0800] [24969] [DEBUG] POST /register_action
+[2020-01-18 15:16:09 -0800] [24969] [DEBUG] POST /get_user_info
+[2020-01-18 15:16:09 -0800] [24969] [DEBUG] POST /return_action_message
+[2020-01-18 15:16:11 -0800] [24969] [DEBUG] POST /register_action
+[2020-01-18 15:17:13 -0800] [24969] [DEBUG] POST /post_login_data
+[2020-01-18 15:17:13 -0800] [24969] [DEBUG] GET /static/home.html
+[2020-01-18 15:17:13 -0800] [24969] [DEBUG] GET /static/homeStyle2.css
+[2020-01-18 15:17:13 -0800] [24969] [DEBUG] POST /get_user_info
+[2020-01-18 15:17:18 -0800] [24969] [DEBUG] POST /return_action_message
+[2020-01-18 15:17:18 -0800] [24969] [DEBUG] POST /get_user_info
+[2020-01-18 15:17:20 -0800] [24969] [DEBUG] POST /register_action
