@@ -7491,3 +7491,4 @@ logging action...
 [2020-01-20 07:32:44 -0800] [5883] [DEBUG] POST /get_user_info
 [2020-01-20 07:32:44 -0800] [5883] [DEBUG] POST /return_action_message
 [2020-01-20 07:32:46 -0800] [5883] [DEBUG] POST /register_action
+[2020-01-20 08:46:48 -0800] [5883] [DEBUG] Closing connection. 
