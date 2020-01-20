@@ -6260,3 +6260,10 @@ logging action...
 [2020-01-19 14:57:21 -0800] [1925] [DEBUG] POST /register_action
 [2020-01-19 14:57:53 -0800] [1925] [DEBUG] GET /static/home.html
 [2020-01-19 14:58:11 -0800] [1925] [DEBUG] Closing connection. 
+[2020-01-19 17:43:12 -0800] [1925] [DEBUG] GET /
+[2020-01-19 17:43:12 -0800] [1925] [DEBUG] GET /static/home.html
+[2020-01-19 17:43:12 -0800] [1925] [DEBUG] GET /static/homeStyle2.css
+[2020-01-19 17:43:36 -0800] [1925] [DEBUG] GET /static/home.html
+[2020-01-19 17:43:36 -0800] [1925] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2020-01-19 17:43:36 -0800] [1925] [DEBUG] GET /apple-touch-icon.png
+[2020-01-19 17:43:36 -0800] [1925] [DEBUG] GET /favicon.ico
