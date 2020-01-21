@@ -7920,3 +7920,4 @@ logging action...
 [2020-01-20 19:19:21 -0800] [5883] [DEBUG] GET /favicon.ico
 [2020-01-20 19:53:47 -0800] [5883] [DEBUG] Invalid request from ip=185.209.0.76: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2020-01-20 23:30:45 -0800] [5883] [DEBUG] Invalid request from ip=5.188.206.50: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-01-21 02:05:07 -0800] [5883] [DEBUG] Invalid request from ip=198.108.67.48: Invalid HTTP request line: ''
