@@ -7914,3 +7914,8 @@ logging action...
 [2020-01-20 14:10:34 -0800] [5883] [DEBUG] POST /register_action
 [2020-01-20 17:58:45 -0800] [5883] [DEBUG] Ignored premature client disconnection. No more data after: b"lv|'|'|VHJvamFuX0M0NkY2RTk=|'|'|MARK|'|'|user|'|'|2013-11-22|'|'||'|'|Win XP|'|'|No|'|'|0.6.4|'|'|..|'|'||'|'|[endof]"
 [2020-01-20 18:06:58 -0800] [5883] [DEBUG] POST /get_user_info
+[2020-01-20 19:10:17 -0800] [5883] [DEBUG] Invalid request from ip=185.246.128.162: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-01-20 19:19:20 -0800] [5883] [DEBUG] GET /static/home.html
+[2020-01-20 19:19:20 -0800] [5883] [DEBUG] GET /static/homeStyle2.css
+[2020-01-20 19:19:21 -0800] [5883] [DEBUG] GET /favicon.ico
+[2020-01-20 19:53:47 -0800] [5883] [DEBUG] Invalid request from ip=185.209.0.76: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
