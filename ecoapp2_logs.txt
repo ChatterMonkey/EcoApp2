@@ -7990,3 +7990,7 @@ Ep value fort this user:
 [2020-01-21 07:47:52 -0800] [5883] [DEBUG] GET /static/info.html
 [2020-01-21 07:47:52 -0800] [5883] [DEBUG] GET /static/info_style.css
 [2020-01-21 07:47:52 -0800] [5883] [DEBUG] GET /favicon.ico
+[2020-01-21 10:27:35 -0800] [5883] [DEBUG] GET /static/home.html
+[2020-01-21 10:27:35 -0800] [5883] [DEBUG] GET /static/homeStyle2.css
+[2020-01-21 10:27:36 -0800] [5883] [DEBUG] POST /get_user_info
+[2020-01-21 10:27:36 -0800] [5883] [DEBUG] GET /favicon.ico
