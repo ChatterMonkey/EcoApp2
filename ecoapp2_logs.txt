@@ -7922,3 +7922,5 @@ logging action...
 [2020-01-20 23:30:45 -0800] [5883] [DEBUG] Invalid request from ip=5.188.206.50: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2020-01-21 02:05:07 -0800] [5883] [DEBUG] Invalid request from ip=198.108.67.48: Invalid HTTP request line: ''
 [2020-01-21 05:30:53 -0800] [5883] [DEBUG] GET /001565000000.cfg
+[2020-01-21 06:43:02 -0800] [5883] [DEBUG] GET /
+[2020-01-21 06:43:02 -0800] [5883] [DEBUG] GET /static/home.html
