@@ -8180,3 +8180,9 @@ logging action...
 [2020-01-22 10:56:44 -0800] [14030] [DEBUG] POST /return_action_message
 [2020-01-22 10:59:20 -0800] [14030] [DEBUG] GET /
 [2020-01-22 10:59:20 -0800] [14030] [DEBUG] GET /static/home.html
+[2020-01-22 11:01:30 -0800] [14030] [DEBUG] GET /
+[2020-01-22 11:01:30 -0800] [14030] [DEBUG] GET /static/homeStyle2.css
+[2020-01-22 11:01:30 -0800] [14030] [DEBUG] GET /static/home.html
+[2020-01-22 11:01:30 -0800] [14030] [DEBUG] POST /get_user_info
+[2020-01-22 11:01:33 -0800] [14030] [DEBUG] POST /return_action_message
+[2020-01-22 11:01:33 -0800] [14030] [DEBUG] POST /get_user_info
