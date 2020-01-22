@@ -8061,3 +8061,4 @@ logging action...
 [2020-01-21 13:26:02 -0800] [5883] [DEBUG] GET /return_action_message
 [2020-01-21 13:27:20 -0800] [5883] [DEBUG] GET /return_action_message
 [2020-01-21 17:50:04 -0800] [5883] [DEBUG] Ignored premature client disconnection. No more data after: b"lv|'|'|VHJvamFuX0M0NkY2RTk=|'|'|MARK|'|'|user|'|'|2013-11-22|'|'||'|'|Win XP|'|'|No|'|'|0.6.4|'|'|..|'|'||'|'|[endof]"
+[2020-01-21 22:20:23 -0800] [5883] [DEBUG] Invalid request from ip=45.136.108.64: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
