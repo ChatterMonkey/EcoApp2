@@ -8771,3 +8771,4 @@ logging action...
 [2020-01-25 05:54:05 -0800] [27669] [DEBUG] POST /register_action
 [2020-01-25 05:54:23 -0800] [27669] [DEBUG] GET /static/home.html
 [2020-01-25 05:54:23 -0800] [27669] [DEBUG] GET /static/homeStyle2.css
+[2020-01-25 09:15:02 -0800] [27669] [DEBUG] Ignoring connection reset
