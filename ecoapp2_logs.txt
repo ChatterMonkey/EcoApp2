@@ -8934,3 +8934,4 @@ logging action...
 [2020-01-25 13:18:26 -0800] [28790] [DEBUG] POST /return_action_message
 [2020-01-25 13:18:28 -0800] [28790] [DEBUG] POST /register_action
 [2020-01-25 16:21:50 -0800] [28790] [DEBUG] GET /
+[2020-01-25 19:52:53 -0800] [28790] [DEBUG] GET /favicon.ico
