@@ -8945,3 +8945,4 @@ logging action...
 [2020-01-25 21:39:23 -0800] [28790] [DEBUG] GET /static/home.html
 [2020-01-25 21:39:23 -0800] [28790] [DEBUG] GET /static/homeStyle2.css
 [2020-01-25 21:39:24 -0800] [28790] [DEBUG] POST /get_user_info
+[2020-01-25 23:38:54 -0800] [28790] [DEBUG] Invalid request from ip=176.113.115.51: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
