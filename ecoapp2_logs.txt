@@ -8935,3 +8935,13 @@ logging action...
 [2020-01-25 13:18:28 -0800] [28790] [DEBUG] POST /register_action
 [2020-01-25 16:21:50 -0800] [28790] [DEBUG] GET /
 [2020-01-25 19:52:53 -0800] [28790] [DEBUG] GET /favicon.ico
+[2020-01-25 21:28:12 -0800] [28790] [DEBUG] GET /
+[2020-01-25 21:28:12 -0800] [28790] [DEBUG] GET /static/home.html
+[2020-01-25 21:28:13 -0800] [28790] [DEBUG] GET /static/homeStyle2.css
+[2020-01-25 21:28:13 -0800] [28790] [DEBUG] GET /favicon.ico
+[2020-01-25 21:39:16 -0800] [28790] [DEBUG] GET /
+[2020-01-25 21:39:16 -0800] [28790] [DEBUG] GET /static/home.html
+[2020-01-25 21:39:23 -0800] [28790] [DEBUG] POST /post_login_data
+[2020-01-25 21:39:23 -0800] [28790] [DEBUG] GET /static/home.html
+[2020-01-25 21:39:23 -0800] [28790] [DEBUG] GET /static/homeStyle2.css
+[2020-01-25 21:39:24 -0800] [28790] [DEBUG] POST /get_user_info
