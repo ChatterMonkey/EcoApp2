@@ -9191,3 +9191,6 @@ logging action...
 [2020-01-26 09:18:43 -0800] [28790] [DEBUG] POST /return_action_message
 [2020-01-26 09:18:45 -0800] [28790] [DEBUG] POST /register_action
 [2020-01-26 09:18:53 -0800] [28790] [DEBUG] GET /static/home.html
+[2020-01-26 19:23:49 -0800] [28790] [DEBUG] GET /static/home.html
+[2020-01-26 19:23:50 -0800] [28790] [DEBUG] GET /static/homeStyle2.css
+[2020-01-26 19:23:50 -0800] [28790] [DEBUG] POST /get_user_info
