@@ -10520,3 +10520,6 @@ logging action...
 [2020-01-27 12:32:15 -0800] [28790] [DEBUG] GET /static/homeStyle2.css
 [2020-01-27 12:32:15 -0800] [28790] [DEBUG] GET /favicon.ico
 [2020-01-27 14:28:57 -0800] [28790] [DEBUG] POST /get_user_info
+[2020-01-27 16:33:27 -0800] [28790] [DEBUG] GET /
+[2020-01-27 16:33:27 -0800] [28790] [DEBUG] GET /static/home.html
+[2020-01-27 16:33:29 -0800] [28790] [DEBUG] GET /static/homeStyle2.css
