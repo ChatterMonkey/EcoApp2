@@ -10816,3 +10816,4 @@ logging action...
 [2020-01-29 08:14:04 -0800] [28790] [DEBUG] GET /favicon.ico
 [2020-01-29 11:03:55 -0800] [28790] [DEBUG] Invalid request from ip=194.61.24.4: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2020-01-29 11:33:03 -0800] [28790] [DEBUG] Invalid request from ip=78.128.113.18: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-01-29 13:59:52 -0800] [28790] [DEBUG] Closing connection. 
