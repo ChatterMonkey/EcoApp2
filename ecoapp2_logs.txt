@@ -11131,3 +11131,4 @@ logging action...
 [2020-01-30 22:05:45 -0800] [28790] [DEBUG] POST /return_action_message
 [2020-01-30 22:05:46 -0800] [28790] [DEBUG] POST /register_action
 [2020-01-31 05:08:32 -0800] [28790] [DEBUG] Invalid request from ip=5.188.206.50: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-01-31 06:02:45 -0800] [28790] [DEBUG] POST /get_user_info
