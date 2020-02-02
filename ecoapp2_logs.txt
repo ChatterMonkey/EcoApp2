@@ -11301,3 +11301,4 @@ logging action...
 [2020-02-01 08:28:39 -0800] [28790] [DEBUG] Ignored premature client disconnection. No more data after: b'\t\x12;Bo3\xa2D\xfd\x01\x86si=\xae\x12\xbb\xc6\x19\xfd\x1a:\xf3\x11\xc9\xae\xda<0\xbc8\x81\x9e\x00\x0f\xcaN\xfb\x05\xc6\xde\xb7<oN\x01\xa2\x87\x82\xf5/\x8e\xed*\x1f\x0e\xb7C\x0c\xa04]\xbd\x80PVf\x1a\x11\xaf\xf5\xc8\xa3\x16+b\xb1\xd7'
 [2020-02-01 08:29:34 -0800] [28790] [DEBUG] Closing connection. 
 [2020-02-01 08:29:34 -0800] [28790] [DEBUG] GET /
+[2020-02-01 20:05:05 -0800] [28790] [DEBUG] Ignoring connection reset
