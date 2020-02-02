@@ -12125,3 +12125,6 @@ logging action...
 [2020-02-02 09:14:17 -0800] [28790] [DEBUG] POST /return_action_message
 [2020-02-02 09:14:18 -0800] [28790] [DEBUG] POST /register_action
 [2020-02-02 09:58:07 -0800] [28790] [DEBUG] GET /
+[2020-02-02 11:22:24 -0800] [28790] [DEBUG] GET /robots.txt
+[2020-02-02 11:22:28 -0800] [28790] [DEBUG] GET /
+[2020-02-02 11:22:32 -0800] [28790] [DEBUG] GET /static/home.html
