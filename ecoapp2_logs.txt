@@ -12850,3 +12850,7 @@ logging action...
 [2020-02-02 18:34:14 -0800] [26578] [DEBUG] POST /return_action_message
 [2020-02-02 18:34:15 -0800] [26578] [DEBUG] POST /register_action
 [2020-02-02 18:36:21 -0800] [26578] [DEBUG] POST /get_user_info
+[2020-02-02 19:58:45 -0800] [26578] [DEBUG] GET /
+[2020-02-02 19:58:45 -0800] [26578] [DEBUG] GET /static/home.html
+[2020-02-02 19:58:46 -0800] [26578] [DEBUG] GET /static/homeStyle2.css
+[2020-02-02 19:58:46 -0800] [26578] [DEBUG] GET /favicon.ico
