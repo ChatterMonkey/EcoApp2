@@ -13685,3 +13685,5 @@ logging action...
 [2020-02-06 07:58:38 -0800] [26578] [DEBUG] GET /
 [2020-02-06 07:58:38 -0800] [26578] [DEBUG] GET /static/home.html
 [2020-02-06 09:46:42 -0800] [26578] [DEBUG] Invalid request from ip=176.113.115.177: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-02-06 10:38:32 -0800] [26578] [DEBUG] GET /robots.txt
+[2020-02-06 10:38:35 -0800] [26578] [DEBUG] GET /static/info.html
