@@ -13948,3 +13948,4 @@ Ep value fort this user:
 [2020-02-07 12:54:34 -0800] [26578] [DEBUG] GET /static/homeStyle2.css
 [2020-02-07 12:54:35 -0800] [26578] [DEBUG] GET /favicon.ico
 [2020-02-07 12:54:53 -0800] [26578] [DEBUG] GET /static/home.html
+[2020-02-07 13:42:14 -0800] [26578] [DEBUG] GET /favicon.ico
