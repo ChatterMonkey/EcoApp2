@@ -13935,3 +13935,10 @@ action id is 10
 Ep value fort this user:    
 [(0,)]
 {'username': [('217',)], 'xp': [(0,)], 'cc': [(0,)], 'id': '14'}[2020-02-07 09:59:21 -0800] [26578] [DEBUG] POST /register_action
+[2020-02-07 11:36:47 -0800] [26578] [DEBUG] GET /static/home.html
+[2020-02-07 11:36:47 -0800] [26578] [DEBUG] GET /static/homeStyle2.css
+[2020-02-07 11:36:48 -0800] [26578] [DEBUG] POST /get_user_info
+[2020-02-07 11:36:48 -0800] [26578] [DEBUG] GET /favicon.ico
+[2020-02-07 11:45:52 -0800] [26578] [DEBUG] Closing connection. 
+[2020-02-07 11:45:52 -0800] [26578] [DEBUG] GET /
+[2020-02-07 11:45:52 -0800] [26578] [DEBUG] GET /static/home.html
