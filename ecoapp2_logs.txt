@@ -13942,3 +13942,9 @@ Ep value fort this user:
 [2020-02-07 11:45:52 -0800] [26578] [DEBUG] Closing connection. 
 [2020-02-07 11:45:52 -0800] [26578] [DEBUG] GET /
 [2020-02-07 11:45:52 -0800] [26578] [DEBUG] GET /static/home.html
+[2020-02-07 12:14:34 -0800] [26578] [DEBUG] Invalid request from ip=5.8.18.88: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-02-07 12:54:34 -0800] [26578] [DEBUG] GET /
+[2020-02-07 12:54:34 -0800] [26578] [DEBUG] GET /static/home.html
+[2020-02-07 12:54:34 -0800] [26578] [DEBUG] GET /static/homeStyle2.css
+[2020-02-07 12:54:35 -0800] [26578] [DEBUG] GET /favicon.ico
+[2020-02-07 12:54:53 -0800] [26578] [DEBUG] GET /static/home.html
