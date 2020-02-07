@@ -13690,3 +13690,4 @@ logging action...
 [2020-02-06 11:56:00 -0800] [26578] [DEBUG] Ignored premature client disconnection. No more data after: b'\x03\x00\x00\x13\x0e\xe0\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00'
 [2020-02-06 13:48:14 -0800] [26578] [DEBUG] Invalid request from ip=176.113.115.177: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2020-02-06 17:50:59 -0800] [26578] [DEBUG] Invalid request from ip=176.113.115.177: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-02-07 02:28:38 -0800] [26578] [DEBUG] GET /
