@@ -13691,3 +13691,8 @@ logging action...
 [2020-02-06 13:48:14 -0800] [26578] [DEBUG] Invalid request from ip=176.113.115.177: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2020-02-06 17:50:59 -0800] [26578] [DEBUG] Invalid request from ip=176.113.115.177: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2020-02-07 02:28:38 -0800] [26578] [DEBUG] GET /
+[2020-02-07 05:10:27 -0800] [26578] [DEBUG] GET /
+[2020-02-07 05:10:27 -0800] [26578] [DEBUG] GET /
+[2020-02-07 05:10:28 -0800] [26578] [DEBUG] GET /static/home.html
+[2020-02-07 05:24:02 -0800] [26578] [DEBUG] Closing connection. 
+[2020-02-07 05:24:02 -0800] [26578] [DEBUG] GET /
