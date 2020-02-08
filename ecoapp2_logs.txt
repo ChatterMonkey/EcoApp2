@@ -13951,3 +13951,6 @@ Ep value fort this user:
 [2020-02-07 13:42:14 -0800] [26578] [DEBUG] GET /favicon.ico
 [2020-02-07 15:16:47 -0800] [26578] [DEBUG] Invalid request from ip=5.8.18.88: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2020-02-07 23:37:09 -0800] [26578] [DEBUG] Invalid request from ip=45.136.108.64: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-02-08 08:03:23 -0800] [26578] [DEBUG] Closing connection. 
+[2020-02-08 08:03:23 -0800] [26578] [DEBUG] GET /
+[2020-02-08 08:03:23 -0800] [26578] [DEBUG] GET /static/home.html
