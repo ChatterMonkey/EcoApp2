@@ -15469,3 +15469,4 @@ logging action...
 [2020-02-10 10:26:11 -0800] [26578] [DEBUG] GET /
 [2020-02-10 11:23:29 -0800] [26578] [DEBUG] GET /robots.txt
 [2020-02-10 11:23:33 -0800] [26578] [DEBUG] GET /static/home.html
+[2020-02-10 12:53:41 -0800] [26578] [DEBUG] Invalid request from ip=45.141.84.44: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
