@@ -15603,3 +15603,5 @@ logging action...
 [2020-02-11 10:37:22 -0800] [18028] [DEBUG] GET /favicon.ico
 [2020-02-11 10:37:29 -0800] [18028] [DEBUG] GET /static/info.html
 [2020-02-11 10:37:30 -0800] [18028] [DEBUG] GET /static/info_style.css
+[2020-02-11 13:55:52 -0800] [18028] [DEBUG] GET /
+[2020-02-11 13:55:52 -0800] [18028] [DEBUG] GET /static/home.html
