@@ -15597,3 +15597,9 @@ logging action...
 
 [2020-02-10 20:10:16 -0800] [18028] [INFO] Booting worker with pid: 18028
 [2020-02-10 21:33:53 -0800] [18028] [DEBUG] Invalid request from ip=46.161.27.112: Invalid HTTP request line: '\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie: mstshash=hello'
+[2020-02-11 10:37:22 -0800] [18028] [DEBUG] GET /
+[2020-02-11 10:37:22 -0800] [18028] [DEBUG] GET /static/home.html
+[2020-02-11 10:37:22 -0800] [18028] [DEBUG] GET /static/homeStyle2.css
+[2020-02-11 10:37:22 -0800] [18028] [DEBUG] GET /favicon.ico
+[2020-02-11 10:37:29 -0800] [18028] [DEBUG] GET /static/info.html
+[2020-02-11 10:37:30 -0800] [18028] [DEBUG] GET /static/info_style.css
