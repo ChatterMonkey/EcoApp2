@@ -16277,3 +16277,18 @@ logging action...
 [2020-02-14 12:28:30 -0800] [24226] [DEBUG] GET /favicon.ico
 [2020-02-14 12:29:11 -0800] [24226] [DEBUG] GET /
 [2020-02-14 12:29:11 -0800] [24226] [DEBUG] GET /static/home.html
+[2020-02-14 13:01:04 -0800] [24226] [DEBUG] GET /
+[2020-02-14 13:08:07 -0800] [24226] [DEBUG] Invalid request from ip=193.169.252.216: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-02-14 13:08:08 -0800] [24226] [DEBUG] Invalid request from ip=193.169.252.216: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-02-14 13:20:48 -0800] [24226] [DEBUG] GET /
+[2020-02-14 13:20:48 -0800] [24226] [DEBUG] GET /static/home.html
+[2020-02-14 13:47:19 -0800] [24226] [DEBUG] GET /
+[2020-02-14 13:47:19 -0800] [24226] [DEBUG] GET /static/home.html
+[2020-02-14 13:47:33 -0800] [24226] [DEBUG] GET /
+[2020-02-14 13:47:33 -0800] [24226] [DEBUG] GET /static/home.html
+[2020-02-14 13:48:23 -0800] [24226] [DEBUG] GET /
+[2020-02-14 13:48:23 -0800] [24226] [DEBUG] GET /static/home.html
+[2020-02-14 13:48:27 -0800] [24226] [DEBUG] GET /
+[2020-02-14 13:48:27 -0800] [24226] [DEBUG] GET /static/home.html
+[2020-02-14 13:49:20 -0800] [24226] [DEBUG] GET /
+[2020-02-14 13:49:20 -0800] [24226] [DEBUG] GET /static/home.html
