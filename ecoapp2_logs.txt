@@ -16292,3 +16292,12 @@ logging action...
 [2020-02-14 13:48:27 -0800] [24226] [DEBUG] GET /static/home.html
 [2020-02-14 13:49:20 -0800] [24226] [DEBUG] GET /
 [2020-02-14 13:49:20 -0800] [24226] [DEBUG] GET /static/home.html
+[2020-02-14 14:31:57 -0800] [24226] [DEBUG] GET /
+[2020-02-14 14:31:58 -0800] [24226] [DEBUG] GET /static/home.html
+[2020-02-14 14:31:58 -0800] [24226] [DEBUG] GET /favicon.ico
+[2020-02-14 14:34:57 -0800] [24226] [DEBUG] GET /
+[2020-02-14 14:34:57 -0800] [24226] [DEBUG] GET /static/home.html
+[2020-02-14 14:34:58 -0800] [24226] [DEBUG] GET /favicon.ico
+[2020-02-14 14:46:45 -0800] [24226] [DEBUG] GET /
+[2020-02-14 14:46:45 -0800] [24226] [DEBUG] GET /static/home.html
+[2020-02-14 14:46:45 -0800] [24226] [DEBUG] GET /static/homeStyle2.css
