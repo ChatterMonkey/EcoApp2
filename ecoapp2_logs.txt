@@ -16236,3 +16236,5 @@ logging action...
 [2020-02-13 11:37:07 -0800] [24226] [DEBUG] GET /static/home.html
 [2020-02-13 11:37:10 -0800] [24226] [DEBUG] GET /
 [2020-02-13 11:37:10 -0800] [24226] [DEBUG] GET /static/home.html
+[2020-02-13 15:37:25 -0800] [24226] [DEBUG] Invalid request from ip=193.169.252.216: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-02-13 15:37:26 -0800] [24226] [DEBUG] Invalid request from ip=193.169.252.216: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
