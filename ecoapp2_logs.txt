@@ -16246,3 +16246,4 @@ logging action...
 [2020-02-14 05:02:45 -0800] [24226] [DEBUG] Closing connection. 
 [2020-02-14 07:57:05 -0800] [24226] [DEBUG] Invalid request from ip=193.169.252.216: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2020-02-14 07:57:05 -0800] [24226] [DEBUG] Invalid request from ip=193.169.252.216: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-02-14 09:54:56 -0800] [24226] [DEBUG] Invalid request from ip=163.172.111.59: Invalid HTTP request line: '\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie: mstshash=hello'
