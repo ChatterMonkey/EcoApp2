@@ -16247,3 +16247,12 @@ logging action...
 [2020-02-14 07:57:05 -0800] [24226] [DEBUG] Invalid request from ip=193.169.252.216: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2020-02-14 07:57:05 -0800] [24226] [DEBUG] Invalid request from ip=193.169.252.216: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2020-02-14 09:54:56 -0800] [24226] [DEBUG] Invalid request from ip=163.172.111.59: Invalid HTTP request line: '\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie: mstshash=hello'
+[2020-02-14 10:43:14 -0800] [24226] [DEBUG] Ignored premature client disconnection. No more data after: b'NXSH-5.6.7\n'
+[2020-02-14 10:43:14 -0800] [24226] [DEBUG] GET /
+[2020-02-14 10:43:14 -0800] [24226] [DEBUG] GET /static/home.html
+[2020-02-14 10:43:14 -0800] [24226] [DEBUG] GET /static/homeStyle2.css
+[2020-02-14 10:43:14 -0800] [24226] [DEBUG] POST /get_user_info
+[2020-02-14 10:55:48 -0800] [24226] [DEBUG] GET /
+[2020-02-14 10:55:49 -0800] [24226] [DEBUG] GET /static/home.html
+[2020-02-14 10:55:49 -0800] [24226] [DEBUG] GET /static/homeStyle2.css
+[2020-02-14 10:55:49 -0800] [24226] [DEBUG] GET /favicon.ico
