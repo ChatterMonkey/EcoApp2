@@ -16306,3 +16306,10 @@ logging action...
 [2020-02-14 17:04:01 -0800] [24226] [DEBUG] GET /static/home.html
 [2020-02-14 17:04:01 -0800] [24226] [DEBUG] GET /static/homeStyle2.css
 [2020-02-14 17:28:37 -0800] [24226] [DEBUG] Ignoring connection reset
+[2020-02-15 00:21:30 -0800] [24226] [DEBUG] GET /
+[2020-02-15 00:21:30 -0800] [24226] [DEBUG] GET /static/home.html
+[2020-02-15 00:21:30 -0800] [24226] [DEBUG] GET /static/homeStyle2.css
+[2020-02-15 00:38:06 -0800] [24226] [DEBUG] GET /
+[2020-02-15 00:38:06 -0800] [24226] [DEBUG] GET /static/home.html
+[2020-02-15 00:38:07 -0800] [24226] [DEBUG] GET /static/homeStyle2.css
+[2020-02-15 00:38:11 -0800] [24226] [DEBUG] GET /favicon.ico
