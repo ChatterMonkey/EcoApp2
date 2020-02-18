@@ -16366,3 +16366,4 @@ Ep value fort this user:
 [2020-02-17 19:51:59 -0800] [21376] [DEBUG] Invalid request from ip=198.108.67.48: Invalid HTTP request line: ''
 [2020-02-17 22:35:07 -0800] [21376] [DEBUG] Ignoring connection reset
 [2020-02-18 11:54:28 -0800] [21376] [DEBUG] Invalid request from ip=78.128.113.18: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-02-18 12:58:38 -0800] [21376] [DEBUG] GET /
