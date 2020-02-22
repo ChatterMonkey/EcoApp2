@@ -16393,3 +16393,6 @@ Ep value fort this user:
 [2020-02-20 17:08:40 -0800] [23620] [DEBUG] GET /
 [2020-02-21 02:45:59 -0800] [23620] [DEBUG] Closing connection. 
 [2020-02-22 09:03:12 -0800] [23620] [DEBUG] Invalid request from ip=176.113.115.145: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-02-22 12:17:59 -0800] [23620] [DEBUG] GET /
+[2020-02-22 12:17:59 -0800] [23620] [DEBUG] GET /static/home.html
+[2020-02-22 12:17:59 -0800] [23620] [DEBUG] GET /static/homeStyle2.css
