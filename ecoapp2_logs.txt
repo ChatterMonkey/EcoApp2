@@ -16401,3 +16401,4 @@ Ep value fort this user:
 [2020-02-22 19:04:32 -0800] [23620] [DEBUG] GET /static/homeStyle2.css
 [2020-02-22 19:04:32 -0800] [23620] [DEBUG] GET /favicon.ico
 [2020-02-22 19:51:15 -0800] [23620] [DEBUG] Invalid request from ip=51.15.15.51: Invalid HTTP request line: '\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie: mstshash=hello'
+[2020-02-22 22:47:47 -0800] [23620] [DEBUG] Invalid request from ip=185.143.221.172: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
