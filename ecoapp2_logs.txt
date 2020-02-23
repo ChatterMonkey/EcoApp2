@@ -16396,3 +16396,8 @@ Ep value fort this user:
 [2020-02-22 12:17:59 -0800] [23620] [DEBUG] GET /
 [2020-02-22 12:17:59 -0800] [23620] [DEBUG] GET /static/home.html
 [2020-02-22 12:17:59 -0800] [23620] [DEBUG] GET /static/homeStyle2.css
+[2020-02-22 19:04:31 -0800] [23620] [DEBUG] GET /
+[2020-02-22 19:04:31 -0800] [23620] [DEBUG] GET /static/home.html
+[2020-02-22 19:04:32 -0800] [23620] [DEBUG] GET /static/homeStyle2.css
+[2020-02-22 19:04:32 -0800] [23620] [DEBUG] GET /favicon.ico
+[2020-02-22 19:51:15 -0800] [23620] [DEBUG] Invalid request from ip=51.15.15.51: Invalid HTTP request line: '\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie: mstshash=hello'
