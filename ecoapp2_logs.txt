@@ -16441,3 +16441,5 @@ Ep value fort this user:
 [2020-02-26 08:06:49 -0800] [26254] [DEBUG] Invalid request from ip=194.61.24.69: Invalid HTTP request line: '\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie: mstshash=hello'
 [2020-02-26 13:08:23 -0800] [26254] [DEBUG] Invalid request from ip=194.61.24.69: Invalid HTTP request line: '\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie: mstshash=hello'
 [2020-02-27 02:01:31 -0800] [26254] [DEBUG] Ignoring connection reset
+[2020-02-27 04:53:00 -0800] [26254] [DEBUG] GET /robots.txt
+[2020-02-27 04:53:04 -0800] [26254] [DEBUG] GET /static/info.html
