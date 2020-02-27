@@ -16443,3 +16443,4 @@ Ep value fort this user:
 [2020-02-27 02:01:31 -0800] [26254] [DEBUG] Ignoring connection reset
 [2020-02-27 04:53:00 -0800] [26254] [DEBUG] GET /robots.txt
 [2020-02-27 04:53:04 -0800] [26254] [DEBUG] GET /static/info.html
+[2020-02-27 08:55:08 -0800] [26254] [DEBUG] Invalid request from ip=45.141.87.24: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
