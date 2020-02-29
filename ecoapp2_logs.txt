@@ -16474,3 +16474,6 @@ Ep value fort this user:
 [2020-02-29 01:14:05 -0800] [16555] [DEBUG] Invalid request from ip=194.61.24.10: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2020-02-29 01:26:43 -0800] [16555] [DEBUG] Invalid request from ip=45.141.86.138: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2020-02-29 01:55:01 -0800] [16555] [DEBUG] Invalid request from ip=45.141.86.138: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-02-29 02:13:20 -0800] [16555] [DEBUG] Ignored premature client disconnection. No more data after: b'NXSH-5.6.7\n'
+[2020-02-29 02:13:20 -0800] [16555] [DEBUG] GET /
+[2020-02-29 02:39:39 -0800] [16555] [DEBUG] Invalid request from ip=185.153.199.118: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
