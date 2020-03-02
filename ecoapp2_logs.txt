@@ -16492,3 +16492,5 @@ Ep value fort this user:
 [2020-03-01 09:53:44 -0800] [20266] [DEBUG] Invalid request from ip=185.202.2.149: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2020-03-01 20:14:03 -0800] [20266] [DEBUG] Ignoring connection reset
 [2020-03-01 20:50:52 -0800] [20266] [DEBUG] Invalid request from ip=45.136.108.20: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-03-02 00:53:59 -0800] [20266] [DEBUG] GET /
+[2020-03-02 00:53:59 -0800] [20266] [DEBUG] GET /static/home.html
