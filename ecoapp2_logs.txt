@@ -16513,3 +16513,8 @@ Ep value fort this user:
 [2020-03-05 00:59:32 -0800] [23890] [DEBUG] Invalid request from ip=185.202.2.147: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2020-03-05 07:25:39 -0800] [23890] [DEBUG] Invalid request from ip=185.202.1.85: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
 [2020-03-05 07:50:03 -0800] [23890] [DEBUG] Invalid request from ip=85.93.20.62: Invalid HTTP request line: '\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr'
+[2020-03-05 13:00:36 -0800] [23890] [DEBUG] GET /
+[2020-03-05 13:00:36 -0800] [23890] [DEBUG] GET /static/home.html
+[2020-03-05 13:00:36 -0800] [23890] [DEBUG] GET /static/homeStyle2.css
+[2020-03-05 13:00:37 -0800] [23890] [DEBUG] GET /
+[2020-03-05 13:00:38 -0800] [23890] [DEBUG] GET /static/home.html
